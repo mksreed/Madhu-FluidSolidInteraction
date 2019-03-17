@@ -1,0 +1,104 @@
+[MUSIC] Well we have simplified the general
+problem of fluid solid interactions by considering the limit case where
+the velocity of the fluid is very small so that we can neglect its influence. When considering the motion of a solid
+in still fluid, there is also a very interesting simple case which
+is that of small amplitudes. For instance, what is the influence of coupling with the external fluid on
+the vibrations of our flexible dam? Or even simpler,
+maybe coupling with the external fluid can modify the stability of
+an equilibrium position of a solid. We know it does, for instance,
+when a boat capsizes. You remember that we have a dimensionless
+parameter that quantifies the magnitude of
+the displacement of the solid. It is the displacement number,
+D =Ksi0 over L. The ratio of the typical displacement
+with the size of the solid. D, much smaller than 1, means that there
+is little change of shape in the solid and certainly this will be a simpler
+case to solve our coupled equations. Let us therefore explore
+the problem of a very small displacement number say
+D much smaller than 1. By the way, to make equations
+easier to read from now on I shall omit the bar over the variables. But remember they are dimensionless. [MUSIC] Because we have a small parameter D,
+we can write expansions of the quantities as zero order in D,
+first order, and so on. For instance, in the fluid,
+let us write the pressure, P, as P = P0+ D p and so on. P0 is the zero order term. And small p is the first
+order term in my expansion. The velocity may also be developed. I can already simplify this because as
+the other zero, U is equal to zero. Why? Because under my approximation,
+if the solid does not move, D =0 then, than the fluid does not either. So U equals simply 0 + D times u. In the solid now,
+the dimension of displacement Ksi, has already been written as D q phi,
+when we used a single mode approximation. I'll write this again as
+Ksi equals 0 + D q Phi. By putting all these variables in the
+equation, we should be able now to write them at the order 0 in D,
+at the order one in D, and so on. And hopefully,
+this will be much easier to solve. [MUSIC] Let us do the order zero first. That means what happens at D equals zero. In other terms, once I have inserted
+the extensions in my equations, I look only at the terms
+where D does not appear. Here are the equations in the fluid, I
+just substitute my expansions of U and P. And here is what I have at the order zero. The mass balance is satisfied
+by div of zero equals zero. The moment just relates now the pressure
+field P0 with the gravity. This shows that although there is no
+velocity in the fluid at that order there is a pressure which depends
+only on the gravity force. This is your well known
+Hydrostatic pressure. [MUSIC] The equations at the order one
+ are much more interesting. I take the same equations. I make the same substitution. But I gather now only the terms
+that are proportional to D. I obtain then the equations
+on this velocity small u. and pressure small p,
+which are my variations of the pressure and velocity in the fluid
+when the solid moves. The mass balance is
+divergence of u equals 0. The momentum balance is much simplified. First the convective  term in the acceleration
+disappears because it will give a D square term second the gravity is not here
+anymore because it is a constant, therefore, a zero order term not order one. These equations are satisfied
+in the fluid domain. Now, let us look at what
+happens at the interface. [MUSIC] At the interface,
+the kinematic condition is simple. The fluid velocity should be
+equal to the solid velocity. And so, because we have D coefficient
+on both sides, we get u = dq over dt times Phi. For the dynamic condition we
+have to be a bit careful. Let us see why. You remember that the dynamic
+interface condition that we have used allows to derive the fluid loading projected to the mode of interest. This was done by summing
+over the interface, the product of the local fluid loadings times the model shape phi. Note that this integration
+is of course done on the instantaneous
+position of the interface. But where is the interface? It is deformed, and
+that is the purpose fluid solid interactions. The point X has moved at
+the position X plus Dq Phi, and so we should also expand
+the geometry at the first order in D. We have to be careful there in
+considering this change of geometry. There exists a general way to do
+this using continuum mechanics. But we are going to do the simplest case. Let us imagine that the displacement
+of the solid is a pure translation. I mean, Phi is a vector,
+independent of the point of interest. In that case,
+I can take out  the Phi from the integral, and focus on all of the terms.
+Moreover the normals, n, are unchanged. What I want to do is to take advantage
+of the smallest placement of interface to use quantities that
+are defined on the original a undeformed position of the interface. For instance, because D is small
+the pressure at the new position maybe developed as  P equals
+P0 at at the new position, x plus Dq phi plus Dp at the new
+position x plus Dq phi, and so on. Hopefully things simplify,
+because the pressure of P0 at the new position may be estimated by
+the  pressure at the original position plus its gradient times the displacement. And the first terms of the  velocity remainsthe same as before. Now, all the quantities involved
+are defined as at the reference undeformed X. We now just have to put this P, and this U in the integral that defines the fluid loading. Let us look just at all the terms proportional to D  the first order the terms. We have a lot of terms in the results. But what is important for
+us is that the integral is now on the original position of interface
+because all variables are taken there. Here is the full result. We have two very different
+terms in there and I can see now what they mean physically. The first term, what we have is
+a projected force on the solid, resulting from pressure and
+viscous stress in the flulid. Remember that this pressure and
+velocity small p and small u, are those directly
+caused by the motion of solid. We expected this. It is just the feedback from
+the fluid to the solid motion. The second term is quite different,
+and a bit surprising, I must say. It does not depend on p and u, but
+only on the order zero-pressure P0. It means that it is not related
+to the motion of the fluid induced by that of the solid. But to the motion of the solid
+in a pre-stressed fluid. This is very different. [MUSIC] This is a very important result. Imagine a fish under water. A resting fish that moves just a bit. He is experiencing two
+kinds of new forces on him. Some are due to the effect on him of
+the flow he's creating himself around him. And some forces are just due
+to the fact that he enters a zone where the pressure is different. We have computed this term, in the simplest case of
+a translation in the fluid, by expanding only the first stress,
+in terms of the position of the interface. Actually we can do the general case,
+but this is much more involved. The local normal may change, and the local
+area where stress applies may change, as an inflated balloon. And phi is generally not uniform. Here, I just give you the term
+corresponding to the gradient of P0 in the case of a marginal
+deformation of the body. Can we summarize all our
+first-order equations? Here they are. They will be much simpler
+to solve because they are linear. Why are they linear? Because we linearized
+the original equations when taking advantage of the small motion. What you see here are linear equations
+that couple the fluid and solid dynamics. They can be solved now. You might be a bit impatient to
+start solving real problems. I understand. But in this course, we want to
+solve cases, not just one by one, but as much as possible,
+all in the same time, if we can. Next, we are now going to see some very
+important results that can be derived on all fluid solid interaction problems at
+low reduced velocities in small motion, regardless of the shape or
+type of motion of the solid. For a fish a boat, or a dam. It was worth going through the equations. [MUSIC]

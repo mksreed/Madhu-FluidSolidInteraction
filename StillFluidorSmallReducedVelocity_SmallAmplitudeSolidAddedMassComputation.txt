@@ -1,0 +1,108 @@
+[MUSIC] The computation of added stiffness is
+easy because it only depends on some integrals over the interface. To compute the added mass we
+have to go a bit further. The added mass m A was defined
+as the inertia coefficient, when we obtained
+the  force acting on the solid. It is made of the mass number, M, and of the sum of an interface
+of quantities that we know. Normal n,
+mode shape of the solid motion phi, and a quantity that we have to compute,
+the pressure shape, phi p. What is phi p? It was related to the velocity shape Phi u through phi u equals minus grad of phi p,
+and phi u was the solution of
+div of phi u equals zero, and phi u n equals phi n,
+at the interface. By taking the divergence
+of this momentum equation, we have div of grad of phi_p equals zero. So, we just have to find the field phi p, that satisfies Laplace equation,
+delta of phi p. equals zero,
+with a boundary condition at interface. Once we have phi p, we will obtain the added mass
+ma by a simple sum of the interface. [MUSIC] So, to summarize, for
+a given problem of  fluid solid interaction, all we have to do is to solve a Laplace
+equation over the fluid domain, with a classical boundary condition
+at the interface to match with the shape of the motion of the solid. Solving a Laplace equation is very simple,
+using numerical methods, for instance. It does not require advanced
+computing techniques. And remember,
+we just have to solve it once. This is much, much simpler than CFD. But the Laplace equation is so
+simple and so common in physics that there
+are many exact solutions. Let us use some of these
+solutions to see what happens. Imagine the case of a cylinder, oscillating horizontally
+in an infinite fluid. On the interface,
+Phi  is the unit  horizontal vector, and so Phi n equals cos theta. I'm using here the polar coordinates r and
+theta. The solution of the Laplace equation
+with this condition is easy. And we have Phi p=1/r(cos theta). Here is what the pressure
+field looks like. The corresponding velocity
+field, minus grad of  Phi p, is associated with a unit displacement
+of the cylinder as shown here. As you can see, the fluid turns
+around the cylinder as it moves. Here is an animated motion
+based on this solution. It is much amplified of course, so that
+we can see what happens, but remember, that our theory is only valid for
+small oscillations. Now, remember that we need all
+these to have the added mass. All we have to do now is integrate over
+the interface, the quantity phi p, n phi. Because the  dimensionless radius of
+the cylinder is one, we obtain mA, the added mass equals M,
+the mass number, times pi. What does it mean? Let us go back to
+the dimensional quantities. The masses have been scaled
+by the mass of the solid. So, the dimensionless mass,
+mA, is the ratio of the true added mass large MA,
+over the mass of the solid, M solid. We are talking here of a 2D problem, so of
+course, these are masses per unique length. On the other hand, the mass number
+M is the ratio of Rho R square over the mass of the solid. Here R  is the radius  of the cylinder. By combining  these,
+we get the dimensional added mass. large MA equal to Rho pi r square. Now, this is very interesting, because we have an added mass here,
+that is equal to the mass of the  displaced water,
+just as in Archimedes' principle. This result has a very important
+particular application in the field of ocean engineering. If you're interested in the vibrations
+of a cable or pipe underwater, You know now that the coupling with the
+water is going to bring an adding mass. And you know that the adding mass
+is going to be something like the mass of displaced water. Very often, underwater systems
+are designed to be neutrally buoyant to avoid forces upward or downward. To be naturally buoyant,
+the mass per unit length of the pipe or cable must be similar to
+the mass of displaced water, so that gravity is compensated
+by Archimedes force. So both M solid and M A are equal
+to the mass of displaced water. This means that the apparent
+mass of the pipe, the sum of the two is twice
+the mass of the pipe itself. This is the basis for rule of thumb
+used in ocean engineering that says that the interaction with water
+typically doubles all the masses. No need for CFD or
+even to solve the Laplace  equation again. All fluid solid interaction reduces
+here to doubling the masses. So, we found theh the added mass of
+a cylinder in an infinite fluid, was that of the displaced fluid. Is that a general rule? No, not at all, unfortunately. For instance, imagine a cylinder in
+a confined, circular, fluid domain. Let delta be the dimensionless radius of the fluid domain. We can solve here the Laplace problem
+to have  phi p with  now the condition that radial velocity is zero
+at the radius of delta. We can get phi p in close form, and
+eventually by integrating as before, we have added mass here. The result is a bit surprising. First, the added mass is
+not the displaced mass. Second, it is higher than the displaced
+fluid mass, although there is less fluid. And the more confined the fluid is,
+the larger the added mass. You can see that when the gap closes,
+delta approaches one, and then the added mass goes to infinity. For instance, here are two geometries
+with increased confinement. Delta equals 2 and then delta equals 1.1. And here are the added masses
+using the formula of both. This is very strange. the less fluid there is the higher the fluid added mass is. Let us try and explain this. [MUSIC] To try and understand, we should have a look at the kinetic
+energy of the fluid as the cylinder moves. The  dimensionless kinetic energy, K C, is the sum of 1/2 of M u
+square over the fluid domain. Because the velocity u has the particular
+form of q dot times phi u, we can take the q dot out of integral,
+because it is independent of space. And because phi u is related
+to phi p everywhere, and because phi p is related to phi at
+interface, we can work on integrals, and it can be shown that the sum over the whole domain of  phi u square, is equal to the sum over the 
+ interface of phi, p, n, phi. And this is exactly our added mass. So, the key result is that,
+the added mass, is the mass that the allows expressing
+the kinetic energy of the fluid, using the velocity of the solid. Now, we understand why the added mass for a confined cylinder is larger than for
+a non-confined one. Look at the fluid motion
+in the confined case. The fluid velocities are much higher. And if the fluid velocities are much
+higher, even on a small domain, the total fluid kinetic energy is higher, and so, the added mass is higher. So it is difficult to move a cylinder in
+a confined field space, not because of viscosity, but because it is difficult to
+accelerate the fluid around the cylinder. This is fluid inertia. Fluid added mass effect. [MUSIC] The same idea  can help you understand
+that added mass is a directional mass. The solid can have a different added mass,
+depending on the direction it is moving. For instance, here. An ellipse with a  ratio epsilon between the two axis. The added mass can be derived exactly. In the motion, transverse to the main
+axis, it is the same as a cylinder M pi. In a motion along the axis,
+it is M pi time epsilon square. Much smaller.
+The added mass there is smaller, because this motion does
+not move much fluid. So the  fluid kinetic energy is small,
+and so is the added mass. The added mass in the vertical motion, is much larger than in
+the horizontal direction. Added mass is a very important
+concept in engineering. It is the simplest model of the effects
+of a  fluid on a moving solid. And of course, the higher the  fluid density, the higher the added mass. So in designing submerged systems or a floating systems in interaction with
+water, you have to take this into account, as it is the main effect of the fluid on the dynamics of the solid. But added mass may also
+be important in air. Why? Consider a  lock of hair. Its weight may be of a few grams. And the added mass, of a few grams also. This means that in computer
+graphics applied to video games or animated films, you have to take into
+account the added mass of air, on hairs. Let us summarize. The added mass effect is a major
+effect in fluid solid interactions. It is remarkable,
+that the result of all the complex flow caused by the motion of the solid is so
+simple. Of course, this is because we have
+made some very strong assumptions. Low reduced velocity, small amplitude,
+negligible effects of viscosity. In the next step, you will learn how to take into
+account the effects of viscosity. [MUSIC]

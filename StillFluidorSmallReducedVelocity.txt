@@ -1,0 +1,78 @@
+[MUSIC] Hello, in the first chapter we
+set up the stage of the course by using dimensional analysis. We know the dimensionless numbers that can
+be used to model fluid solid interaction problems. We know that dimensionless equations and how our dimensionless numbers
+appear in these equations. With that,
+we are now ready to start building models that will be appropriate for
+various regions of the parameter space. In engineering, we need these models. Where should we start? As I mentioned before, the reduced
+velocity is a very useful parameter to help in classifying
+problems because it compares the timescales of the solid dynamics and
+of the fluid dynamics. Remember, that the reduced velocity
+reads T Solid over T Fluid. It is also the ratio between
+the fluid difference velocity U0 and that of elastic waves in the solid, c. So, in the forthcoming chapters we shall explore the effect
+of this reduced velocity UR. A very important case in practice is
+when the fluid is apparently not moving. I mean, when its motion seems
+very slow in comparison with that of the deformation of the solid
+or very small, we use velocity. For instance, imagine the oscillations
+of our flexible damn in contact with a very slowly moving water or
+a small boat that oscillates on a river. Certainly, we can derive model for such cases which are much
+simpler than the general case. Let us do it. What does small reduced velocity mean? Let us imagine that we follow in time the evolution of a quantity
+pertaining to the solid. For instance, the displacement somewhere. This quantity evolves with
+a timescale that I called T Solid. Conversely, the quantity pertaining to
+the fluid dynamics such as the position of a fluid particle would evolve on
+a much longer timescale, T Fluid. Intuitively, we may say that they easily
+meet when these timescales are so apart, such that the dynamics
+of the solid during T Solid, occurs in the interaction
+with the still fluid. This is certainly a much simpler framework
+to model fluid solid interactions. Note, that by stating that the fluid is
+still, I do not mean that it doesn't move. First, I say that it's own motion
+that regulated by U0 occurs so slowly that I can neglect it when
+computing the motion of the solid. But of course, I will have to
+compute it at some point if needed. Second, and this is the meaning
+of the small dotted curve here. There is certainly a motion of the fluid that mirror somehow
+the motion in the solid. How? We shall solve that later. [MUSIC]. All I just said here was essentially
+an intuition that if the two timescales are so separated, there is going
+to be a more solvable problem. Let us see how this
+materializes in the equations. The idea is to take into account
+the fact that there is a significant difference between the dynamics of
+the fluid and that of the solid. Let us see that on the boundary
+conditions on the fluid. You remember, that the fluid domains
+see two types of boundary conditions. Those at the interface with the solid,
+and the others, anywhere else. How do these boundary conditions
+contribute respectively to the dynamics of the fluid? Let us compare the order of magnitude
+of what they impose on velocity. At the interface, the condition on the velocity is that it
+is equal to that of the solid U= dxi/dt. Here, schematically, is an evolution of the displacement
+somewhere at the interface. What is the order of magnitude
+of this dxi over dt? Well, xi is a displacement
+in the solid and we have an order of magnitude
+of this that we called xi0. And xi evolves with the characteristics
+timescale that we called T Solid. So, the quantity dxi over dt has the order of xi0 over T Solid. And therefore the boundary
+condition that applies there on the velocity is of the order
+of xi0 over T Solid [MUSIC] The other boundary conditions also
+affect the dynamics of the fluid. This is a very general issue, but remember
+that we have defined a quantity U0 which sets the magnitude of our fluid velocity. For instance, it may be the multitude
+of the upstream velocity in the river. So, I am going to state that
+the fluid boundary conditions set a velocity of order U,
+of course, order of U0. Let us summarize. The dynamics of the fluid is governed on
+one hand, by the condition of order U0, and on the other hand, by the condition
+of order xi0 over T Solid. Certainly, if U0 is much smaller
+than a xi0 over T Solid, the first condition can be set to 0
+without changing much the results. This corresponds exactly to what we meant
+by neglecting the proper fluid condition. The solid moves in an approximately still
+fluid because the fluid moves so slowly. What is the meaning of this condition,
+U0 much smaller than xi0 over T Solid? By rearranging it, it also reads U0 T
+Solid over L much smaller than xi0 over L. And in terms of our
+dimensionless number this is exactly UR much smaller than D,
+the displacement number. So to summarize, under this condition we say that to compute the dynamics
+of the solid in contact with a fluid, we can totally disregard
+the proper dynamics of the fluid. And we can do this because
+it is the interaction that governs the dynamics of the fluid. This is exactly what we entreated at the
+beginning when we imagine that the fluid was apparently still during
+the motion of the solid. [MUSIC] So, schematically, in the general case we have the fluid
+dynamics and the solid dynamics. And they are coupled by the kinematic and dynamic conditions at the interface and
+they evolve simultaneously. But, in our new approximation
+of small reduced velocity, we have two dynamics, one slow,
+which is that of the fluid, and one fast, which is that of
+the coupled still fluid and solid. We have separated the two
+dynamics by taking advantage of the differences in the timescales. Of course, this is going to be much
+simpler to solve than the general case. What should we do now? We just need to write
+down the equations for that simple problem and hopefully, solve them. [MUSIC]

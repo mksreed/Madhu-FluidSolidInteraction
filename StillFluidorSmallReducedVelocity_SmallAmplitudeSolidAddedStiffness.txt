@@ -1,0 +1,100 @@
+[MUSIC] Well, at this stage we have
+got a lot of simplification. First we have considered the cases where
+the velocity of the fluid is very small. And this gave us a condition on
+the reduced velocity being smaller than the displacement number. Second we are focused on motions
+of small amplitude in the sense that the displacement number
+is much smaller than 1. We are in a specific region
+of our space of parameters. And there we have a set of equations
+that we hope to be able to solve. The key result we obtained was that
+the force exerted by the fluid on the solid was made of two terms. The first one was related to the fluid
+motion caused by the solid and the second one was not. If this later force does not
+depend on the motion of the fluid, you can compute it without
+doing any fluid mechanics. Let us do that. So I just look now at this part of
+the force acting on the solid and disregard the other one. What do we have here? We have a force, f, that depends
+on the modal displacement q. The other ingredients are the mass number,
+M, the pressure, P0, the modal shape,
+Phi, and, of course, the geometry of interface  through the local
+normal and the spatial integration. But we know all of this. In particular the gradient of P0 is given by the momentum balance
+at the order 0 that I recall here. It is related to the loading by gravity
+which is in the dynamic Froude number  FD. I can substitute the  gradient
+of the pressure P0 and I take the dynamic Froude number of the integral. Finally the force takes
+a very simple form. It is the product of the displacement,
+q, of a ratio of dimensionless numbers and of an integral that mixes
+the shape of the motion phi and the geometry of the interface through
+the normal, and ds,  the elementary  area. This is a general result and
+it seems simple enough. So this force is proportional to
+the displacement, it is a stiffness force. The coefficient between them  the stiffness Kf is
+a constant  that  I can compute easily. What do I need? The dimensionless number M is
+the ratio of the two densities. I know it. The dynamic fluid number is given,
+once I know the size L, gravity g, and
+when I choose a time scale T solid. And the integral is just a sum
+over the interface of a mix of the local modal  shape Phi,
+and the local normal. This is pure geometry. So to summarize, from the point of view
+of the solid, moving in a fluid with a pressure gradient is strictly equivalent
+to being connected to an elastic spring. An important result is that I can compute
+the stiffness of this spring once and for all, for a given problem. I do not have to recompute the force
+at each position of the solid. [MUSIC] Now let's go to a practical application. Imagine an iceberg, or
+even simpler, an ice cube in water. Let us consider the vertical oscillations
+and just small oscillations. We assume that the reduced
+velocity is small. I want to compute the stiffness force and see how this is going to affect
+the motion of my ice cube. The mass number M and
+the dynamic fluid number, I can keep them as they are,
+and then give their value later when I want to be more specific
+on the size of the ice cube. The modal shape Phi is here just the unit vector on the vertical axis
+because I'm considering vertical motion. And if L is the size of the ice cube,
+I can use it as my reference length. All I have to compute now is the sum
+of this quantity over the interface. On the sides of my ice cube the normal
+n to the interface is horizontal. So the product Phi n is equal to 0,
+the sum is 0. On the bottom of the ice cube,
+the normal n is opposed to Phi, and so the product Phi n is -1. I sum the local value of -1 over
+the whole bottom of the ice cube of dimensionless size 1, and
+I get simply -1 as a result. So the total integral is -1. With the three ingredients, the two dimensionless numbers and
+the sum of the interface I have my dimensionless stiffness force as a function
+of the parameters of the problem. It opposes the motion of
+the ice cube just as a spring. I can use that force on the equation
+of motion of the ice cube. Actually, it is the only
+force acting on the ice cube. So, the oscillator equation for the
+vertical motion of the ice cube is simply here, d square q over d t square
+equals minus the stiffness times q. I move my fluid induced stiffness
+force on the left hand side, and this looks now exactly like a classical
+oscillator with a stiffness and a mass. Now if you remember the time I'm using here is actually t bar, which
+I noted t for the sake of simplicity. So the true dimensionless equation
+actually starts with d-square q over d-t-bar-square. I can now go back to the dimensional time by substituting t bar which is
+t over t solid in the equation. I obtain a simple oscillator equation. Note that the T solid disappears. My solid time T  was rather arbitrary,
+so this is fine. From this oscillator equation, I can extract the frequency
+of pure oscillation, omega, which depends only on the two densities,
+the gravity and the size of the ice cube. This is very much like the frequency of a pendulum with length and
+gravity. This is actually a fluid solid pendulum. You can test this equation for an ice cube of one centimeter you get a period
+of oscillation of about 0.2 second. Of course, you can arrive at this same result by
+directly using Archimedes principle, which is simple to use here, but, in the general case,
+our approach here is much, much simpler. How do we go from an ice
+cube to an iceberg? We would do exactly the same thing. The  sum over the interface is a bit more complex
+to compute because the shape is complex. But the sum always simplifies
+whatever the shape and reduces to just the area where
+the iceberg crosses the surface of water. Of course, because of the  dimensionless numbers that depend on L, there is going to be a huge difference
+in the frequency of oscillation between an ice cube and an iceberg. For a cubic iceberg of 100 meter, the period of free oscillation would
+be 20 seconds, not 0.2 seconds. [MUSIC] This was for small vertical motions. But actually, I can apply my formula to
+any kind of slow motion and any shape. Here is a shape of a ship hull. The mode shape, Phi,
+can be any kind of solid body motion. For instance, pitching, or rolling. For any of these motions, we only have
+to compute the sum over the interface of the quantities involving the modal
+shape Phi, and the local normal n. This will give me the stiffness that
+opposes rolling, pitching, and so on. This is pure geometry. And this can be done very easily
+at the design stage of a hull, by a basic computer program. Moreover, if you imagine
+several modes of motion, they may be cross stiffness
+terms between all the modes. I will not detail this, but
+the fundamentals are here. All you need to do to have
+the fluid-induced stiffness is to compute a sum over the interface
+of geometrical quantities. And remember,
+no fluid mechanics is needed. Well, actually, some is needed, which
+is hydrostatics, but we solved it and incorporated the solution into
+the formula for the fluid-stiffness. So to summarize we see that the second
+term of my fluid induced force is very important in practice and
+that it may be very easily computed. But there's also the other
+term which I've left aside. In the brackets you see that it depends
+under pressure p and the velocity small u. This is going to be a bit more complex
+because I will have to solve a problem of linearized fluid dynamics to have it. Here we are. We have been exploring what
+the interaction looks like when the reduced velocity is small and
+when the motions are small. Just oscillations of a boat, vibrations of an inflatable damn,
+or small displacement of a fish. We learned that these motions are opposed
+by a fluid induced stiffness force easy to compute. Next you are going to compute
+the other component of the force. [MUSIC]

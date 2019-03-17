@@ -1,0 +1,56 @@
+[MUSIC] So we have defined a condition of small
+reduced velocity where the problem of the coupled dynamics between
+the fluid and the solid could be considered as independent of that of
+the proper dynamics of the fluid. Let us see now how this is going
+to simplify the equations. First of all, I have to reconsider
+my choice of dimensionless numbers. I have been using some numbers
+which contain the velocity U0. This is not a very good
+idea to keep using them. Because U0, the upstream velocity is just not relevant for the dynamics of our coupled
+problem as I just said. Where do I see U0 in the numbers ? In the Reynolds number, in the Froude
+number, and in the Cauchy number. This scale of flow velocity U0,
+with a speed of viscosity diffusion, with the velocity of gravity waves, and the third one scales the
+deformation due to the flow. [MUSIC] In place of U0, it would be much wiser
+to use  in the dimensionless numbers or a velocity related to the solid,
+like c, the velocity of elastic waves. Or equivalently the velocity L over T-solid. Here are our new numbers defined
+using c in place of U0. They are the Stokes number, the Dynamic
+Froude number, and the Mass number. They scale now what happens in
+the solid with the speed of diffusion, the velocity of gravity wave, and
+finally, just the ratio of masses. You remember that the particular choice
+of dimensionless parameters is really up to you. As long as you satisfy
+the result of the Pi theorem. What I have done here is to take
+the Reynolds, Froude, Cauchy numbers and the reduced velocity, combine them with Ur, which is U0 over c in order to
+eliminate U0, and obtain a new set. This is much better because now U0
+is only in the reduced Ur. Here is the same new set of parameters
+using L over T-solid in place of c, when I don't have a  wave
+velocity c in the solid. We are now going to use these
+numbers in our equations. [MUSIC] I recall here the dimensionless equation that I had, where the dimensionless numbers appeared. The fluid, the solid, the interface, and
+the fluid and solid boundary conditions. The only thing I did so far was to assume that I could set
+the fluid boundary conditions at U equals 0 because it has a negligible
+effect on the dynamics of the fluid. But I have to be consistent in terms of
+the variables that I use in my equations. Here, other dimensionless variables that
+I used in my dimensionless equations, in the fluid domain, the solid domain and
+the time, the same for both. There is a problem here. You can see that I'm using U0 to
+scale the velocity and the pressure. But at the same time, I assume that U0
+is just not even relevant for my problem. All I have to do is to
+make another choice, and replace U0 by a velocity referring to
+a solid, for instance, again, the elastic wave velocity  c. I'll then call these
+new variables U bar and P bar, and for the sake of clarity,
+I will name x tilde x bar. What is that going to
+change in my equations, because there are just
+changes of fluid variables? Let us look at the fluid equations. In the fluid domain, we have the mass
+balance and the momentum balance. By substituting U tilde with U bar,
+and P tilde with P bar, respectively, I get very similar equations,
+except for the coefficients, which happen to be my new dimensionless numbers, the dynamic Froude and the Stokes number. This is no surprise of course because I
+have obtained these new dimensionless numbers also by replacing U0 by c. At the interface we can do
+the same kind of substitution, and similarly we have the Mass and
+Stokes number that appear. To summarize,
+here are our new dimensionless equations. Things are simpler now because all
+the fluid dynamics is governed by the interaction with a solid. [MUSIC] Can we solve these equations
+in a general case? Not yet. We have to simplify them again by
+using stronger and stronger assumptions. At this point we have just assumed that
+the fluid moves very slowly in comparison with the solid. In other terms, the oscillation
+of this boat when I get on board are not going to depend on
+the velocity of the river flow. What can we do next to simplify the gain? Well, certainly the case
+of small motion of a solid, just vibrations, is simpler to solve and
+very important in practice. Let us go in that direction and
+see what we can do. [MUSIC]

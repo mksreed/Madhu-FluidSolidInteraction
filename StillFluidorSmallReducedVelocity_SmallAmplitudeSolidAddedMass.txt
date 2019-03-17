@@ -1,0 +1,102 @@
+[MUSIC] Hello, we are presently considering
+small motions of a solid in a fluid, in the particular case where the main
+fluid velocity can be neglected. I  have illustrated that by the oscillation
+of a boat on a lake or by the vibrations of an inflatable dam. These two conditions as you know, correspond to a specific region of
+the space of our dimensionless parameters. Small motions mean that the displacement
+number is much more than one. And negligible fluid velocity means that the
+reduced velocity is much smaller than D. Moreover, we have considered description of the motion of solid by a single mode. In this framework,
+the equations are much simplified. Here they are. On the fluid side, the solid side,
+and at the interface. They  just relate the motion of
+the solid governed by q of t, and the corresponding motion in the fluid
+where we have the velocity small u and the pressure small p. Note as I'm now using
+the simple notation dot for the time  derivation when
+a variable only depends on time. So q dot means dq over dt. We have shown that the fluid force acting
+on the solid consists of two terms. The second one is actually
+a simple stiffness force. Which depends only on the static
+pressure gradient in the fluid. And we computed this stiffness in
+the case of an ice cube or an iceberg. That was easy. Let us now explore the first
+term of our fluid force. What is it made of? It is a sum over the interface of the
+force resulting from the pressure p and the velocity u in the fluid. You can recognize the pressure loading and
+the viscous shear loading. So schematically,
+this term corresponds to the effect on the solid of the motion induced in the
+fluid, by the motion of the solid itself. It is a feedback term which
+depends on how the fluid reacts to the motion of the interface. To compute this force, of course we need
+now to compute the motion of the fluid. This was not the case for
+the stiffness terms we analyzed before. I recall here the equations that we
+have to solve in the fluid domain. We have the mass balance,
+and the momentum balance. At the interface we have the kinematic
+condition on the velocity. And the dynamic condition which
+is going to give me the force. For the sake of clarity, I have removed the stiffness term
+because I know how to compute it. These equations in the fluid
+domains are simple because I've considered only
+small motions, and everything is linearized. But there is a dimensions parameter
+which appears explicitly here and there, the Stokes number. What is it? You remember that we introduced
+the Stokes number in our new series of dimensionless parameters. It scaled the viscous effects. Actually, it is equivalent to the Reynolds
+number but not based on the mean velocity, which is neglected here, but
+based on the velocity of the solid. This is why it appears in the equations, to bring the effect of viscosity in the
+momentum equation and in the fluid force. What is the value of the Stokes number? [MUSIC] The Stokes number depends
+on the fluid viscosity, mu, the fluid density, rho,
+the length scale of the problem, L, and the velocity of elastic waves, c. Or equivalently remember a velocity
+defined by L over T solid. Imagine the case of oscillations
+of the small boat that I used before. We have L equals about one meter. Mu/Rho for water = 10 to the 6
+meters squared per second. And the order of magnitude of the period
+of the oscillations is say a second. This would give me a Stokes
+number of 10 to the 6. This is a very large dimensionless number. And of course in such a case, the coefficient 1 / Stokes
+is going to be very small. And corresponding term in the equation can be neglected. In practice there are many cases where
+1 / Stokes is going to be very small. So let us now make the approximation
+of high Stokes number in our equations. The equations simplify in several ways. First, in the fluid domain,
+the momentum balance equation simplifies to du / dt =-gradient  of p. The viscous term being neglected. Second, in the dynamic condition at the interface,
+the effect of viscous shear is neglected. And we only have the sum over interface of
+the pressure loading times the boat shape. Finally, the kinematic condition
+at the interface must be changed. Why? Because in the absence of viscous effects,
+it is just impossible to enforce a condition on the tangential
+components of the velocity. The only condition that remains is that
+the normal velocities must be equal, meaning that there is no mass transfer or
+separation at interface. These equations have solutions
+in a very simple form. Note first that at interface
+the kinematic condition implies that the normal  fluid velocity
+takes the form of a function of time, q dot, times a function of space, Phi n. This comes from the single mode
+description of the motion of the solid. We may then look for a fluid velocity
+that would have the same form, not only on the interface but
+everywhere in the fluid. Of course,
+the time dependence would be q dot. The space dependence is unknown and noted  Phi u. The same idea:  because pressure
+is related to accelerations, let us look for pressure field p(x,t) as q double dot times
+a function of x  say Phi p of x. Then, the mass balance implies
+that div of Phi u = 0. In the momentum balance,
+the q double dot cancel out. And  we have Phi u
+= minus grad of Phi p. At interface, the kinematic
+condition is simply Phi u n = Phi n. And in the fluid induced force, because I can take the q double
+dot out of integral space, we obtain a very simple form
+which I'm going to command now. [MUSIC] What we have here is a major result of
+fluid-structure interaction theory. As you can see, the term in
+brackets is actually a constant because we have the mass
+number times a sum over the interface of quantities
+that depend only on space. So in this approximation, the fluid force
+resulting from the motion of the solid is an inertia force and the coefficient
+of inertia is called the added mass. What is also remarkable is that the response of the fluid to
+the motion of the solid is instantaneous. I mean that the force at a given time only depends on the acceleration
+at that same moment. So, schematically,
+we can say that the problem on the left, where we have a solid moving in  interaction
+with a fluid reduced to a very simple problem on the right of the same
+solid with just an augmented mass. This is much, much simpler. All we have to do is to
+compute a single quantity, this added mass, mA, once and for all. Then, for any motion along this mode,
+I know that the coupling with the fluid reduces to adding a mass
+effect on the dynamics of the mode. Before going further in this direction, Let us look back at the steps of
+simplification that we have done. Originally in the very general case, we had a set of dimensionless numbers that
+were the displacement number, the Froude number, the Reynolds number, the  Cauchy number, and the reduced velocity. We then choose an alternative set. That would be more suited to
+the case of Rubio's velocity, and that was the displacement number,
+the dynamic Froude number, the Stokes number, the mass number,
+and the reduced velocity. At this stage, no assumption was made. We then define the domain of low
+reduced velocity where the proper velocity of the fluid could be neglected. Then Ur did not appear in
+the equations anymore. We then look at the case of
+motions of small amplitudes. D much smaller than 1. And D cancelled out
+everywhere in the equations. And now by assuming low viscous effects,
+the Strokes number disappears. In this framework of approximations,
+we have a fluid force that only depends on the dynamic
+Froude number and on the mass number. And that force is made of a stiffness
+term and then an added mass term. So to summarize, we know that
+coupling with a still fluid for small vibrations, and
+without viscous effect results in just an increased stiffness and
+an increased mass of the vibrating system. We know how to compute
+the added stiffness. Let us see next how we can compute
+in practice the added mass. [MUSIC]
