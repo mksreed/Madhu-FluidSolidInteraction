@@ -1,0 +1,84 @@
+[MUSIC] So, let us explore together a bit further
+the domain of small reduced velocities. As you know, this corresponds to cases where I can
+neglect the proper free velocity. We are still going to assume that the
+displacements of the solid are small, so that I can use all the much
+simpler linearized equations. Let us recall them. Here they are, on the fluid side,
+on the solid side, and at the interface. You recognize in the fluid force the part that is due to the motion of
+the solid in a pressure gradient. That gave us the fluid
+induced stiffness terms. Then, the other part corresponds
+to the effect of the pressure and velocity in the fluid caused
+by the motion of the solid. This is the feedback term. Let us focus on this feedback term. In the limit of very high Stokes number, the effect of the fluid
+viscosity could be neglected. And we showed that the fluid loading
+was just an added mass effect. Let us go now at the other limit,
+a very small stokes number, for instance, vibrations inside a bearing. There, the size of the fluid
+domain is small, say ten microns. The viscosity of oil is
+a thousand  times more than water. For vibrations at a frequency of ten hertz
+you would have a Stokes number of 10^-6 This is  very small, and you can imagine that the Stokes number may
+be even smaller when the size is smaller, the viscosity is larger,
+and the motion is slower. A very small Stokes number means that
+the viscous term in the momentum balance equation dominates over
+the acceleration term. We can neglect the du over dt. We have to rescale the pressure by
+using p times Stokes in place of p, otherwise your problem is ill-posed. This results in a simplified
+momentum balanced equation, zero equals minus gradient  of p plus delta u. The mass balance is unchanged,
+div of u equals 0. Consistently, at interface, we keep the full kinematic condition,
+u equals q dot Phi. And the dynamic condition, where I have again removed
+the stiffness terms, contains the sum over the interface of the loading by
+pressure plus the loading by viscosity. Can we solve this in general case? Certainly. [MUSIC] In fact, we can use exactly
+the same technique done for the limit of very high Stokes number. At the interface, the fluid velocity
+takes the form of a function of time, q dot, times a function of space, Phi. This comes from the single mode
+description of the motion of the solid. We may then look for fluid velocity
+that would have the same form, not only on the interface but
+everywhere in the fluid. Of course,
+the time dependence  would be q dot, the space dependence is unknown,
+and we note it phi u. In the same idea,
+because pressure is now proportional to the velocity u, let us look also for
+pressure field p of x and t as q dot times a function of space,
+say phi p of x. These are not the same phi u and phi p as
+for the added mass case, of course. Then, the mass balance implies that
+div of phi u is equal to zero. And in the momentum balance,
+the q dots cancel out, and we obtain minus grad of phi p,
+plus delta of phi u, equals 0. At the interface, the kinematic
+condition is simply phi u equals phi. Let us look at the dynamic condition. Here is the fluid loading
+we are looking for. Using our new single mode
+description of the pressure and velocity, it takes the form of minus
+q dot times a ratio of M over Stokes, times the sum over  the whole
+interface of terms involving Phi, Phi p, Phi u, and a normal n. All these are time independent, so the quantity inside
+the bracket is just a constant. This means that the force induced by
+the fluid on the solid is a damping force, proportional to the velocity of the solid,
+q dot. The coefficient, CA, is the added damping. And again, the fluid loading
+on the solid at the time t only depends on the velocity
+at the same time. This is an instantaneous feedback. We just found for
+the limit of a very small Stokes number, a situation somewhat parallel to
+the limit of very large Stokes numbers. For large Stokes numbers, the effect of viscosity in dynamics
+of the fluid can be neglected. The motion of the fluid is not influenced
+by viscous diffusion, which is very slow. This results in an instantaneous
+intertial response of the fluid, and a consequence an instantaneous
+added mass effect. Conversely, for small Stokes numbers,
+the effect of the viscosity is dominant. The motion of the fluid is now
+governed by viscous  diffusion which is very fast. This results in an instantaneous
+viscous response of the fluid, and as a consequence,
+an instantaneous added damping effect. In the first case, to compute the added mass, we just had
+to solve a Laplace problem on Phi p. In the second case, it is a Stokes
+problem, a bit more complicated but still it only has to be solved once. What are the effect of
+dimensionless numbers? The added mass and  the  added damping
+are both proportional to the mass number. The added damping decreases
+with the Stokes number. If we consider now the dimensional
+quantities, you remember that we had an added mass that was proportional
+to the fluid density Rho. Now the added damping is proportional
+to the fluid viscosity Mu, as you would expect. Using these very simple solutions for
+the fluid force acting on a solid, we know how the dynamics of
+the solid is going to be affected. At high Stokes number, as I said before, coupling with a fluid is just
+an increase of the mass. The oscillator equation for q is now (1 + m A) q double dot + q = 0. The frequency of the free oscillation
+would be lower in the presence of fluid. At low Stokes number, we now have
+a damped oscillator equation for q. Any free oscillation will  be damped. The added damping caused by the viscous
+effects in the fluid is not a surprise. In practice, it is only significant
+when the Stokes number is quite small. This means very small systems or
+very viscous fluid, for instance. In industrial application this
+is the dominant damping for systems with a very confined fluid domain,
+such as fluid bearings for instance. You also find this effect in biomechanics
+when considering very small systems. And it is also important when
+dealing with a very viscous fluid, such as those found in food processing. Yes, there are people doing research
+on fluid-solid interactions in cheese making at the industrial level. Of course, the next question is what happens when the Stokes
+number is neither large nor small. Are we going to have added
+mass plus added damping? Next you will learn how
+to address this case. [MUSIC]

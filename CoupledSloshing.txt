@@ -1,0 +1,103 @@
+[MUSIC] Well. You know that the free surface is
+going to bring you some stiffness to the fluid dynamics, and therefore there
+is the possibility of sloshing modes. We obtained the first mode for
+a rectangular tank and we said that we are going to use it to represent
+the whole sloshing dynamics of the fluid. That is a bit of an oversimplification,
+but we want simple models to understand
+the mechanisms of the interactions. Here is the problem I want to solve. The dynamics of a tank containing
+sloshing fluid and elastically supported. So this is going to be some
+combination of the sloshing motion that I've just analyzed and
+that of a simple mass spring system, the mass of the tank
+connected to a spring. How can I solve this? My fluid system on the left
+is defined by capital Q of t, which satisfies MF capital Q double
+dot plus KF  capital Q equals zero. And the solid system on the right
+is defined by q(t) which satisfied q double dot plus q equals zero. Actually, I know how to
+solve some coupling. When I did not consider sloshing, I found
+ how  a  fluid was coupled to a moving solid. That was the issue of added mass,
+remember. In that particular case,
+the added mass problem is simple. The fluid just moves with a solid. The added mass is the  mass of fluid. So the pressure shape is  just minus x, the velocity shape is
+the pure translation. It is identical to the solid mode shape. And the added mass is just the fluid mass,
+so here the mass number over two. [MUSIC] First I would like to model the effect
+of solid motion on sloshing, just like 
+in my glass of wine when I moved it. Let us try building a combined
+solution using the added mass  case and the  simple sloshing mode. Here it is, p equals capital Q double dot,
+capital Phi p, this is the sloshing part, plus Q double
+dot Phi p, this is the added mass part. This solution satisfies the boundary
+condition on the sides and at the bottom. Now, on the free surface,
+I can do exactly as before, writing the free surface
+condition in a projected form. I write that the free
+surface quantity times phip summed over the whole
+free surface equals zero. By inserting the combined
+form of p into this, I get terms relative to capital Q and
+terms relative to q. What are they? Those related to capital Q and its time derivatives
+are exactly those I got before. The sloshing modal mass, MF, and
+the sloshing modal stiffness, KF. But now, I have a new term that
+combines phi p and capital Phi p. So to summarize,
+by using a combined solution based on the pure sloshing solution
+plus the added mass solution, I obtain the equation governing
+the dynamics of sloshing as the classical modal oscillator equation, with the modal mass MF and
+the modal stiffness KF, forced by the acceleration of the solid,
+q double dot. The coefficient, which I call
+the solid to fluid coupling mass, can be computed with the pressure
+shapes of the sloshing and of the added mass  solutions. In our problem,
+I get mSF equals two over pi squared. This is why wine sloshes in my glass,
+because I accelerate the glass. Now reversely,
+let us see what is going to be the effect of the motion of the fluid on
+the dynamics of the solid. This is the issue of
+the truck overturning. It is the sum on all the interface
+of the pressure force minus pn It is the sum on all the interface
+of the pressure force minus pn ������ scalar product with  the shape of motion phi. Now, because my pressure here
+is the sum of two parts, I get two parts in my loading. One is a coefficient times
+capital Q double dot The other one a coefficient
+times q double dot. The second one is easy to identify. It is the fluid loading caused
+by my added mass solution, so it is the added mass effect. The first one gives the effect
+of the sloshing itself. It is the fluid to solid coupling mass. Let us summarize. The dynamics of this fluid solid
+system is governed by first, an oscillator equation for the fluid sloshing motion, with an
+excitation from the motion of the solid. Second, an oscillator equation for the solid motion with
+an excitation by fluid sloshing. There is also the classical
+added mass effect, which I have put on the left hand
+side to focus just on the coupling terms. So what I get is coupled
+sloshing solid dynamics. Actually, this is very similar
+to a double mass-spring system, but here, one of the oscillator is solid and
+the other is fluid. This is a classical case of mode coupling. What does the motion look like? Here we have integrated
+the two equations in time, and what you see is that the motion of
+the support affects sloshing. And that sloshing affects
+the motion of the support [MUSIC]. This is a very important result. We obtained it on a simple geometry, but you can obtain similar
+results in the general case. The key point is that the force feedback, in relation to the added mass effect, is
+itself governed by a oscillator equation. So, the fluid here again
+as an internal time scale, which is that other sloshing mode. This time is scaled by
+the dynamic  Froude number. When we investigate
+the effect of viscosity, we also add an internal time scale. It was that of viscous diffusion, and
+it was scaled by the Stokes number. So, oscillation on one side,
+diffusion on the other. These are the two main
+mechanisms that may cause the feedback force from the fluid
+to the solid to be delayed. What happens if the dynamics of the solid need to be approximated
+by more than one mode? Well, all this is linear mechanics. So, we're going to have coupling
+matrices in place of coupling coefficients and so on. But the root mechanisms
+of coupling remain. What happens if the dynamics of the solid
+needs to be approximated by more than one mode? Again we can extend all this easily and
+the root mechanisms remain. What you see here corresponds
+to large amplitude of course. And that's another story. But  the underlying mechanics is the same. Let us conclude on all these effects
+of fluid-solid couplings at low reduced velocities We found that
+the variety of coupling that  exists when the fluid is not moving by
+itself is already quite large. Added mass, added damping,
+added stiffness, memory effect, mode coupling. What is nice is that using the dimensionless
+numbers, you know when you can find them, and what will be the effect
+on the dynamics of the solid. A very good news also is that to obtain
+the coefficients in the equations, like  the added mass, you only need to solve very
+simple equations in the fluid domain. Once for all, and not at  every instant. And because these equations are so simple, the results exist already in plenty of
+tables and graphs for many geometries. Again, no need of advanced
+CFD to get these effects. Here are some of the examples I used
+when we explore all these effects. As you can easily imagine,
+reality in all these cases is more complex than the idealized
+problems we solved together. But the important thing is that you know what is behind all the effects
+that you may observe. And you know what to expect. Remember that we said that we could use dimensionless analysis to classify
+problems and eventually build models. This is exactly what we
+have been doing together. So far, we have explored the domain
+of very low reduced velocities. This means when the dynamics of
+the fluid is very slow compared to the dynamics of the solid. But there are plenty of things happening
+at high reduced velocity when, conversely, the dynamics of
+the fluid is much faster. For instance,
+when wings start to vibrate in planes, or when bridges oscillate under wind. This is exactly what you shall explore
+next: coupling with a fast flow. You will learn how to predict
+things like wing flutter in planes. [MUSIC]

@@ -1,0 +1,107 @@
+[MUSIC] So, we have found plenty
+of simple models for the coupling between a moving solid and
+a still fluid, as soon as the reduced
+velocity is small enough and the amplitude of the motion is also small. We showed that the force acting
+on the solid was made of an added stiffness part and depending on
+the value of the Stokes  number, an added mass or an added damping  part. These two extreme cases, added mass and
+added damping were obtained when the effect of  viscosity was  negligible
+ or conversely dominant. The question now is of course what
+happens for intermediate Stokes number? The approach we used was based on the
+analysis of the momentum balance equation. You remember that using the approximation
+of either very small, or very large Stokes number, we could drop some of the terms
+in the momentum balance equation. Then we could derive the added mass and
+the added damping by using a very simple argument;  As  the solid velocity at the boundary was given
+by  a simple approximation we built a single mode approximation for
+the velocity in the whole fluid  domain. That  allowed to cancel out all time dependence
+in the equations, and eventually to arrive at a force proportional to q dot,
+or q double dot. Can we use the same argument for
+any value of the Stokes number? Let us see.
+Unfortunately, no, we cannot. Why? Because in the momentum balance equation, we must keep the two terms
+involving the velocity, the inertial term and the viscous
+term. None of them can be neglected. So, any form of the velocity in the form
+of a function of space and function of time is going to mix in that equation the
+function of time and its time derivative. What does that mean in terms of physics? It means that there is a time scale inside
+the equations for the fluid domain. When you have an equation like
+dy / dt + 1 / Tau x Y = 0, you know that the solution
+is  Y = e to the -t /Tau. The dynamics of y then
+includes the time scale tau. It is similar here,
+we have du over dt on one side, and one over  Stokes delta u on the other side. If there is a time scale in the fluid dynamics there is
+no way that the  fluid response can be instantaneous. We had instantaneous response for
+low and high Stokes number, because we have instantaneous
+viscous diffusion and instantaneous inertial response respectively. In between, there is competition
+between these two effects. So what does the force look like? Oh, no not him. [MUSIC] To try and answer this, let us consider the idealized problem
+of what is called the impulse response. Imagine that the motion of
+the solid is an impulsive start. Zero velocity then unit velocity, constant,
+the Heaviside side step function H of t. This is going to cause some  fluid  motion of velocity U_I and
+the pressure P_I, I as impulse. By integrating at the interface,  these velocities and pressure will give me the force acting on the solid  the soluble which I called f_l. I don't know how this force evolves
+in time but certainly it does. As this is a response of the system to
+an impulse displacement of the solid I call it the impulse force. Imagine now any arbitrary motion
+of the solid defined by q dot of t as sketched here. I can write this q  dot
+as the sum of successive impulses of  magnitude q double  dot times
+the Heaviside  step function. Because all the equations governing
+the dynamics of the  fluid are linear, the response of the fluid and
+as a consequence, the force, is going to be the sum of
+successive impulse responses to the change of velocities the acceleration. This takes the form of a convolution
+product between the acceleration of the solid, and the impulse force. [MUSIC] Schematically, here is what happens. At the time t, the force exerted
+by the fluid on a solid, f(t), results from all fluid motion started earlier as a consequence of previous changes in
+velocity of the solid. The force f of t keeps
+the memory of the past. Why? Because the impulse response
+was not instantaneous, the fluid having its own time scale. To summarize,
+any motion of the solid is going to start a progressive diffusion of
+momentum in the fluid, and progressively the feedback force
+will take this into account. What is going to happen? Imagine a motion defined by
+the velocity q dot sketched here. At low Stokes number, the force will have the same
+shape being proportional to q dot. When the motion stops, the force stops. Conversionly at  very high Stokes number,
+the force is proportional to acceleration but it will also stop when the motion stops. In between,
+because of the delay in the response, the force will continue to exist even
+after the solid has stopped its motion. This is a new very important result. Between these cases of added damping and
+added mass, the  fluid feedback force will
+depend on the history of loading Not an added damping  or added mass, but
+something like an added internal clock. [MUSIC] Actually, we can have exact solutions for all these when the geometry
+is simple enough. Imagine an infinite plate
+bounded on one side. by a semi-infinite fluid domain, the plate moves along the x axis only,
+tangentially to the fluid. In that case, the problem is independent of x, and
+the velocity only depends on y and t. The pressure is uniform and
+the velocity satisfies simply Du over dt equals 1 over Stokes,
+d square u over d y squared. This is a very classical formula
+of diffusion in one direction that you'll find in all
+domains of physics. The impulse response corresponding to
+q dot equals H of t  is well known. It takes a self-similar form based on what is called the error function that I recall here.
+This means that the velocity in
+the fluid adapts as follows. At an early stage of the motion, only the fluid very close to
+the plate is entrained. As time goes, thanks to the viscous
+forces, more and more fluid  is entrained. This is a classical diffusion
+of momentum by viscosity. The corresponding force, the impulse force, is a consequence of
+the viscous shear at the interface. Per unit area of  the plate it
+can be computed using the general formula,
+which simplifies a lot here, and we have the impulse force equals to minus
+M over square root of Pi  Stokes t. This means that an impulse
+start of the plate results in a feedback force  that starts at
+infinite and decreases progressively. I could expect that. A very strong feedback as I try to shear the fluid at rest. Then as the fluid layers progressively
+start moving less and less force needed. As a consequence, the force,
+in the general case, reads as the convolution between the acceleration
+and that force decreasing in time. As you can see, the larger the Stokes
+number, the shorter the memory. To summarize, the effect of viscosity
+is all in the Stokes number. If the stokes number is very large,
+neglect viscosity and consider only added mass. If it is very small, neglect inertia and
+consider just added damping . In between,
+the competition between inertia and viscous diffusion will result in a memory
+effect that will give you a force depending on the history of
+motion of the solid. In practice, if you consider vibrations
+of a solid in a still fluid, here is what will happen. At large Stokes number the fluid force will be
+in phase with the acceleration, at small with the velocity, and
+in between the  phase will be in between. Actually, by measuring the phase
+between the displacements and the force we can estimate the Stokes
+number and there by the fluid viscosity. This a technique used in food engineering,
+for instance, to measure the state
+of cooking of cheese. As you could see, a lot could be said
+in the field of coupling  a small motion of solid 
+with a still fluid. We have obtained added stiffness, added mass, 
+added damping and even memory effects For a given case the equations
+to solve are rather simple. This means that a lot of solutions
+are available in books and papers for geometries of interest. But the most
+important is, as always, to understand what is behind all this using
+the appropriate dimensional numbers. Actually, there are other
+cases where the dynamics of the fluid is governed by an internal time scale. One very important in
+practice is that of sloshing. Next, you will learn how
+to take that into account. [MUSIC]

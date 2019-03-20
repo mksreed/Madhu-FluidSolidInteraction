@@ -1,0 +1,92 @@
+[MUSIC] What is sloshing? It is the oscillating motion of a fluid
+that you can see in swimming pools, in a cup of coffee, or in France,
+in a glass of French wine, of course, and in the tanks of liquid natural
+gas ships or almost everywhere. In all these motions, there might be
+some coupling with a solid around it for two reasons. First, this sloshing motion may
+be caused by the moving solid. This is the case when you move your
+cup of coffee or your glass of wine. That may cause coffee or wine to spill. Second, the mass of moving
+fluid may be large, and that may result in a large
+feedback force on the solid. This is a well-know effect in tank trucks for instance The motion of the fluid inside te
+ truck may cause a truck to overturn. How can we model this? First, let us try to
+model sloshing itself. To understand sloshing, let us consider
+a fluid domain with a free surface. By free surface, I mean that
+the fluid is in contact with a gas at a constant pressure, say,
+the atmospheric pressure. The other boundaries are fixed. I'm going to consider small motions and to neglect the effect of viscosity, which
+means that the Stokes number is large. Here are the equations
+satisfied in  the fluid domain. They are satisfied by  small u and
+ small p. So, although the solid is fixed for the moment, I imagine that there
+might be motions in the fluid. Now, I have to be a bit more specific
+about what happens at the free surface. There, as I just have stated, the fluid
+is in contact with air at atmospheric pressure, but the free surface deforms. I should write that the contact is
+made at the point X + Ksi where Ksi  is the displacement of the fluid particle. Let us write this total
+pressure at the point X + Ksi . As I did before, I expand total P and
+get P naught as the zero order term. The first order term reads small
+p (X) + grad of P naught Ksi . And because P total is a constant
+equal to P atmospheric, the first other term must be zero. So I had a condition that p
+plus grad of P naught Ksi = 0. Now, because P naught is the hydrostatic
+pressure, grad of P naught is vertical. All this reduces to condition between the local pressure p, and the local vertical
+displacement of the interface. To summarize, the free surface conditions
+reads that any vertical motion of a surface is opposed by
+an increasing pressure. It is just like a spring. So, having gravity and
+a free surface is equivalent to a mattress of springs on the free
+surface opposing motion. The effect of gravity, which is active
+everywhere in the fluid domain, actually materializes
+only at the free surface. Now, what is the relation to sloshing? Well, at the free surface, we have
+stiffness and we have inertia everywhere. So there is certainly going to
+be some oscillatory dynamics. Let us see that. [MUSIC] We are not going to explore
+the general models of sloshing, because what we are looking for
+is, eventually, the coupling between sloshing and
+the solid dynamics. Here is a very simple fluid domain in 2D. It is rectangular and
+the free surface is there. It is like a swimming pool if you want. Here are the equations for
+the fluid domain. On the walls and at the free surface. I can eliminate the velocity and
+get a set of equations on pressure only. This is a Laplace problem, but with a rather special
+condition at the free surface. Here are the equations with
+the boundary conditions. What is the first mode of free
+oscillation of this system? Well, I'll look for
+P in the form of e to the i omega t times a function of space, Phi p. Because of the simple
+geometry I can look for Phi p as a function of x
+times the function of z. Because delta p equals 0,
+the function of x , F and the function of z, G,  both satisfy
+a very simple differential equation. Because F prime must be equal to 0 on
+both sides, F is going to be a cosine. And then G is going to be
+a hyperbolic cosine. By combining these functions, F and G,
+I get the modal shape of pressure Phi p. Here are the isovalues of Phi p. This is not very easy to understand, so let us look at
+the associated velocity field. Phi u is obtained out of Phi
+p by taking its gradient. Here is what the velocity
+modal shape Phi u looks like. Now, you see clearly the sloshing
+motion of the fluid. So, if I consider a free
+oscillating motion along this mode, here is what it looks like. On the free surface, the deformation
+is a cosine, as you would expect. Finally, using the condition
+of a free surface, we have the frequency of sloshing omega. It depends on the Froude number,
+as you would expect, because this is where you
+have the effect of gravity. [MUSIC] To summarize, I have computed
+the modal shapes in pressure and velocity of the first sloshing mode. I also have its frequency. This is just like any vibration mode,
+except it is for the fluid domain. I would like now to use this mode for a single mode approximation of
+the dynamics of the fluid. For this, I would like to write
+the modal oscillator equation, and I need the fluid modal mass and
+fluid modal stiffness. How do I get them? Well, this is similar to what is
+generally done in modal dynamics, except that the system is fluid. To get the modal mass and the stiffness
+of this mode, here is the direct way. I take the oscillating form of p. I then insert it in the free surface
+condition considered not locally but in a projected form, where I take the sum over 
+whole free surface times  Phi p. I get a minus omega
+square times a constant plus another constant equals 0. This defines my fluid sloshing modal mass,
+Mf, the coefficient of Omega square,
+and modal stiffness, Kf. [MUSIC] We have everything. Modal shapes, frequency,
+modal mass, and modal stiffness. Now, we can use this mode into
+a single mode approximation of the solution dynamics of our fluid. This means writing u equals Q dot Phi u. And p equals capital Q double dot phi p. And the variable capital Q
+that governs the dynamics of my fluid satisfies the oscillator
+equation of the mode. Mf Q double dot + Kf Q = 0 for
+free motions. And of course,
+if the sloshing motion is forced, then I will have a projected
+forced F on the right-hand side. With all that you can have
+resonance like for any oscillator. This is what happens here on
+the pool of a cruise ship. It is a forced oscillator response
+following essentially a single mode. What we did for simple rectangular
+domain can be done on any shape. You just have to solve a different
+Laplace problem to get Phi p, and then Phi u, and the frequency,
+and the oscillator equation. As you can see, a single mode
+approximation and the associated oscillator equation is a simple way
+to do some fluid sloshing dynamics. We have used it before for the solid only,
+but it can be done for the fluid too. Now that we know how to enter
+the sloshing of the fluid domain, let us couple that with
+the dynamics of the solid. [MUSIC]
