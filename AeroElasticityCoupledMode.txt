@@ -1,0 +1,130 @@
+[MUSIC] So!  We have just seen that
+the approximation of quasi-static aeroelasticity for
+a system described with two modes can, in principle, allow you to
+predict a dynamic instability. This opens a wide range of applications. The example of dynamic instability I used at the beginning of this
+chapter was that of a wing. Let's go back to this and
+try to model it now. Here is the motion. The choice of a two-mode approximation for
+the kinematics is straightforward. Displacement seems in fact to be the sum
+of a vertical displacement, bending, also called plunge, and
+the rotation around an axis, torsion. As a consequence we are going
+to try to model the dynamics of a wing moving along these two modes,
+plunge and torsion. [MUSIC] Where does such kinematics come from? In other terms,
+can we build a mechanical model for the solid dynamics that corresponds
+to this two-modes approximation? Let us consider the airfoil we
+had before in pure  torsion but now with a combination of torsion and
+plunge. Imagine first the wing without flow. Schematically, the airfoil,  with 
+ center of gravity G, is connected to a spring that resists
+to torsion with a stiffness C, and a  spring that resists to
+displacement with a stiffness, K. The distance between the axis of
+rotation and the center of gravity is L. We now have two variables
+to describe the motion. The angle theta, as before, and the
+displacement, y of the axis of rotation. What are the equations of
+the motions of the system? This is a classical problem
+of rigid body dynamics. We can derive this equation choosing,
+for instance, the Lagrange equations. For this, we need the kinetic
+energy of the system, K C. Here it is, combining translation with a mass, M, and a rotation around the axis
+with the moment of inertia, J. We also need to write the elastic
+energy value which is the sum of energies stored
+in each of the two springs. Now the Lagrange equation gives us
+a set of two equations as follows, governing the evolution of the vertical
+displacement y  with that of the torsion angle theta. Note that in the absence of flow we have
+two equations that are already coupled. This is because the axis of rotation
+is not at the center of gravity. [MUSIC]
+Let us now add fluid forces under the approximation of
+high reduced velocities. The fluid forces is therefore
+assumed to be simply that acting on a wing section that has a instantenous position defined by theta and y. It is a lift force depending
+on the angle of attack as if the position of
+wing was frozen in time. This is exactly the same force that
+we had for pure torsion dynamics but now it applies to a wing that
+moves in both torsion and plunge. So, the force F is defined with
+the lift coefficient CL and x is the distance from the point of
+loading to the axis of rotation. This force adds new terms
+to the equation of motion. First, the force applies directly on
+the equation governing the evolution of the displacement of Y. Second, for the angle of rotation, we have
+to take into account the moment exerted  by the force at the distance x plus
+l from the center of gravity, G. We can now explore the dynamics of the
+wing under the  loading by this fast flow. As we did before for
+the case of pure torsion, we can now expand the force at
+the first order in theta and use the thin airfoil theory approximation
+for the slope of the lift coefficient. To make things simpler,
+let us use dimensionless variables. We define q1 and q2 as the normalized
+displacement and rotation. Here D is the displacement number which
+would be the scale of the rotation angle theta for instance, its  magnitude theta0. By doing so, q1 and
+q2 are defined to be of the order one. Then we have several dimensionless
+numbers:  omega gives the ratio of the frequencies of pure translation
+to the frequency of pure rotation, Kappa is the ratio of stiffness, Epsilon gives the position
+of the center of gravity, and Chi gives the distance
+between the axis of the force and the axis of rotation. I'll define the same
+Cauchy  number as before. And finally the time is re-scaled
+by the frequency of pure rotation. Using all this, I obtain the following
+set of dimensionless equations, which govern the evolution of q1 and
+q2, the plunge and torsion variables. Let us have a closer look. [MUSIC] We see that the effect of the flow
+through the Cauchy number is two-fold. It appears here and there. The first term in blue is going to change
+the frequency of the torsion mode. We already know this. When we have just torsion in the model,
+we showed that the stiffness and therefore the frequency of torsion were
+going to decrease with increasing flow. As the frequency of the torsion
+mode evolves we may obtain coincidence of the tortion frequency
+with that of the plunge mode. What happens then? We see that the second term in red
+brings the coupling stiffness, and this does not seem to
+be symmetrical at all. So, an instability is likely to arise by
+coincidence and non-symmetric coupling. To see what the instability looks like,
+we can now solve the equations and find the modes of
+the coupled system in flow. Let us do this. Here are our equations in q1 and q2. All we need to do is to look for
+motion in the form of a mode. For every value of a set of
+parameters we shall have two modes defined by their frequency and modal vector. This just requires to solve numerically a two by two determinant being equal
+to zero, which gives two roots. If we fix all parameters but
+the Cauchy number, we can detect the effect of the flow
+velocity on the two frequencies. We shall have an unstable mode as soon as
+the frequency omega of one of the modes has a negative imaginary part, because then e to the i omega
+t will we go like e to the t. So the first thing to do
+is to plot the real and imaginary parts of the frequency
+versus the Cauchy number. [MUSIC] For a given set of wing parameters,
+here is the evolution of the real and imaginary part of the frequency
+with a Cauchy number. We have exactly the scenario we expected from the very simple
+model we used previously. The equations to solve are more complex,
+but still, the scenario is there as follows. First, we have two modes
+with real frequencies. They are neutral, and their frequencies
+evolve with the Cauchy number. At some point, at Cauchy about 0.08,
+the two frequencies merge. Above this value of the  Cauchy number,
+the real parts are equal, and we have two opposite imaginary parts. We therefore have one unstable mode and
+one damped mode. What do these modes look like? First, before the coincidence,
+here at Cauchy equals 0.05. We reconstruct the motion for each mode by using the eigenvector and
+seeing the evolution with time after an initial condition
+proportional to this eigenvector. Here is the evolution along mode 1. And here along mode 2. These modes couple a bit the two
+elementary modes, torsion and plunge. But they are neither damped nor unstable. We say they are neutral. Now, after coincidence  here at Cauchy equals 0.1. First, the damped mode with positive imaginary part. With an initial condition on that mode,
+the amplitude decreases slowly. In the space of q1, q2,
+this is a decreasing spiral as for the simplified model we use before. And finally the unstable mode. With an initial condition on this mode,
+the amplitude increases. The q1 q2 plot is an increasing spiral. Can we give a simple explanation
+of why this mode is unstable? [MUSIC] Here let us have over the cycle,
+the evolution of the motion of the wing. Note that the lift force F is always
+in the same direction as the velocity, y dot,
+of the point where the force applies. This means that the work of the lift
+force is positive over a cycle of motion. If the  work is positive then
+the flow transfers energy to the solid, this is the cause of the instability. In other words,
+the unstable mode is a motion that is capable of extracting
+energy from the flow. This is made possible by
+combining two modes with a phase. When you think of it, there's a lot of
+kinetic energy available in the flow. And only a small part is
+needed to make a wing vibrate. In fact, recently there have been
+several ideas of using this kind of motion to harvest energy from a flow. [MUSIC] If we go back to the original
+film of flutter of a wing, we see a very similar kind of motion
+combining torsion and plunge. In fact,
+this model is very efficient to predict the onset of this type of wing flutter. Actually, this motion may
+also be found in nature. Here is the leaf of an aquatic plant,
+which oscillates under water flow. The motion, also, are quite similar. It is now time to summarize this whole
+chapter about coupling with a fast flow. As a first set of approximation, we have
+assumed that the dynamics of the solid is much slower than
+the dynamics of the fluid. This corresponds to very
+high reduced velocities. In that approximation which we
+called quasi static aeroelasticity, the forces exerted by
+the fluid are the same than if the  solid's position
+was frozen in time. As we already have a lot of models of
+forces on fixed bodies, we can reuse them. And we  have shown that two important
+types of instabilities can be predicted in that framework,   static
+instabilities and dynamic instabilities. We have illustrated this on
+the case of a wing section. But of course,
+domain  of application is much, much wider, we shall see other examples. Still, we shall need to build other
+models of motion and flow. Why? First, because the flow velocity is 
+not always that large that our fast flow approximation can be used. Then also, because we see in practice,
+some motions in the flow that clearly are in a single mode,
+not in two modes. We shall do that next. [MUSIC]

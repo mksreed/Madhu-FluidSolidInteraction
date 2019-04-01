@@ -1,0 +1,129 @@
+[MUSIC] We have just seen that the approximation
+of quasistatic  aeroelasticity where the fluid and solid respective dynamics
+are well separated in time scales, allows building very simple models for
+instabilities due to  the flow for instance the torsion divergence of an airfoil, of a
+bridge can be reasonably modeled by this. But there are some flow induced
+instabilities that behave quite differently as an oscillation of growing amplitude
+not just an increase in displacement. And the simple model we used only
+led to the possibility of increasing displacement by buckling. Let us build now a more
+sophisticated model. [MUSIC] By looking at the movie
+of flutter of  a wing for instance the motion seems
+to be on more than one mode. In other terms it is not just a shape
+in space times a function of time. It seems more complex with
+a lot of bending of the wing, but at the same time some torsion. [MUSIC] Let us therefore base our new model
+on a richer approximation of the kinematics of a solid using a two
+modes approximation for the motion. By this I mean that the displacement  Ksi
+is the sum of the contribution of one mode q1Phi1, and as a second mode  q2Phi2. This  two modes kinematics
+may be of several kinds. For instance it may be a combination of
+a  rigid body motions in two directions. Mode one is the translation along X, mode two along Y, and the combination
+gives you any position in space. We may also imagine the combination of
+translation and rotation as here, or an even more complex case with the two
+modes of bending of a beam like this. To compute the dynamics of the solid
+we have to solve the modal equations of motions here with the fluid loading on each mode. This is identical to what we just did
+on  one mode except that we have two modes and because we have two modes
+we have different model masses and stiffness, and the same fluid loading
+was to be projected on the two modes. We have enriched the model of
+the kinematics of the solid, but in terms of time scales
+we keep the approximation that these motions are much
+slower than that of the fluid. We are still in quasistatic aeroelasticity. [MUSIC] The general framework I used previously
+was the following for one mode. The pressure and velocity fields in
+the fluid depended only on the variable q, and therefore the fluid force
+also only dependent on q. We could then expand the field
+force in terms of q and obtain a flow-induced stiffness force. Now, if we have two modes,
+then the steady state fluid mechanics problems depends on
+the instantenous values of both q1 and q2. The resulting fluid loading needs
+to be projected on the  two modes. The two modal forces will
+both depend on q1 and q2 and , as in the previous case
+they are proportional to the Cauchy number. Let us now expand each of them in
+terms of the small quantity D, the amplitude of displacements,
+which is assumed to be small. The first term is the permanent loading. As before we are only
+interested in the load that depends on the motion of the solid,
+and more particularly the first coefficients
+of the expansion,  these two terms. Let us define k sub ij the partial
+derivatives of the modal forces with respect to each modal variable. The modal equations now
+take this simple form keeping only the q1 and
+q2 dependent terms. We now have a set of two equations that are coupled by flow
+induced stiffness term. [MUSIC] These terms vary with the fluis
+velocity through the Cauchy number. Note that the diagonal terms of
+the matrix correspond to the  previous analysis where fluid forces resulted
+in a modified stiffness of a mode, but what is new here is that
+we have off-diagonal terms and these induce a coupling
+between the two modes. Now, what happens for the dynamics of a system when we couple
+modes with such stiffness terms? In general we'll have to
+recompute new modes of the system. This can be done of course and
+we will do it, but let us try and
+anticipate what the result will be. Consider first the effect of
+the diagonal terms I just mentioned. Each of the two modes will see its
+frequency change when the Cauchy  is varied as discussed previously. So schematically depending on the values
+of flow induced stiffness K11 and K22 these two frequencies
+may part form each other or may come closer and
+closer as you can see here. In that case we may have something called a coincidence of frequencies
+of the two modes. Another question becomes : what happens
+when two modes of a system come to the same frequencies and at the same
+time are coupled by stiffness terms? [MUSIC] There is a simple way to
+predict what happens for this dynamical system at coincidence. Here I moved on the left hand side
+of the equation the diagonal terms. As the frequencies are now equal
+it'll have the two modal equations identical and  scaled at a frequency of 1. Now there remains only
+the coupling forces. For the sake of simplicity let us assume
+that the coupling stiffness is very small in comparison to
+the stiffness of the modes. All the results can now  be obtained by
+considering first the symmetric case  when the stiffness are equal, and then
+the antisymmetric case where the opposite. Symmetric coupling first. We look for the modes of this coupled
+system in the form of the real part of q1, q2 naught e to the i of omega t. By inserting this in the modal equations
+the frequency then needs to satisfy this condition which implies that
+the determinant is equal to 0. There are two solutions to this, and  because
+epsilon is small we have simple solutions. Omega equal 1 plus or
+minus epsilon  over  2. [MUSIC] The two mode of the systems, which I
+call A and B have real frequencies and the eigenvectors are combinations
+of the original modes one and two and they are also real. This is just weak coupling that makes
+the system slightly different with a slight difference of frequencies between
+motions along the two eigenvectors. Now the case of antisymmetric coupling. Let us do exactly the same derivation,
+but for antisymmetric coupling. I also look at the frequencies. I have a determinant equal to 0,
+but the big difference is that now the two frequencies  read omega equal
+1 plus or minus i epsilon over 2. The frequencies have an imaginary part. [MUSIC] So the two modes of this systems are
+the following with complex frequencies. Even the eigenvectors have
+an imaginary part as you can see here. What does this mean? Let us start with
+the first of the two modes. We need to go back to
+the values of q 1 of t and q 2 of t, which are the real
+part of the eigenvector times the exponential to the i times
+the modal frequency times t. Because both the eigenvectors and
+the frequency are complex quantities we obtain q1 and
+q2 that oscillate as cosine and sine of t and
+that decrease exponentially in time. This is a very different
+case from the previous one. If I start with an arbitrary condition
+along the mode,  the amplitude of q1 and q2 decrease with time. In the q1 q2 plane we have a decreasing spiral. Let us call this the damped mode. Now, the second mode. We obtain q1 and q2,  that also oscillate as cosine and minus sin of t, but
+now they increase exponential in time. This is an unstable mode in the q1
+q2 plane. If we start with an initial condition on this mode we shall
+have a spiral growing in time. These modes correspond to what we
+shall call  a dynamic instability. Dynamic instability as opposed
+to static instability because there is here an exponential
+growth and oscillation. In the static instability there was
+only exponential growth no oscillation. So, to summarize here is what we learned
+with the simple case of weak coupling. When the coupling is symmetric
+we have two neutral modes, but when it is antisymmetric we have a damped
+mode and most important an unstable mode. Why do we have a stable and an unstable
+mode when the coupling is anti symmetric? In the case of symmetric coupling there
+is a potential phi equal to epsilon q1 q2 such that the right hand side
+of the equation reads dphi over a dq1 and dphi over dq2 respectively. This is called a conservative forcing. Any cycle in the q1 q2 plane
+is going to produce a net zero energy transfer in the modes. Conversely for the antisymmetric
+coupling there is no potential. This is a nonconservative forcing with
+energy input or output at each cycle. [MUSIC] Let us go back to our original case. Is the coupling symmetric,
+or antisymmetric ? In general it is neither of them
+because the coefficients are CyK12 and CyK21, and
+remember that KIJ tells the dependence of the projected fluid  force on mode
+i to the displacement of mode j. There is absolutely no reason
+that they be equal or opposite, but if the coupling is not exactly
+symmetric it contains a nonzero antisymmetric part and
+is therefore nonconservative. So, as soon as they are not equal
+the system is nonconservative, and there will be an unstable mode. Now what can be computed even for
+nonsmall coupling, and you can expect to have an unstable
+mode and another mode. We shall have simple example of this. [MUSIC] So, to summarize. If we have a two mode
+approximation of  the dynamics, the modal equations are coupled by flow
+induced stiffness terms. There is a risk of a dynamic
+instability when the coupling matrix is such that,  as the Cauchy  numbers increased, there is a coincidental frequency, and
+when the coupling is not symmetric. This flow induced instability
+is often called coupled mode  flutter. But coupling is not sufficient, we need coincidence and
+nonsymmetric coupling. This is an important result. The approximation of quasistatic
+aeroelasticity allows to predict not only static instabilities, buckling,
+but also dynamic instabilities. Is this applicable to
+the oscillating instability of a wing? This is what we shall do next. [MUSIC]
