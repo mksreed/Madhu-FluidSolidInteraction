@@ -1,0 +1,118 @@
+[MUSIC] We are now in the approximation of
+a very large reduced velocity where the dynamics of the solid is so slow that we may neglect the velocity
+of the interface in the fluid  dynamics. The fluid dynamics is fast, and
+the solid dynamics is slow, comparatively. Under this approximation, can we say
+anything in general on the effect of the fluid loading on
+the dynamics of the solids? [MUSIC] If we use the simplest framework for
+the dynamics of the solid, that of a single mode approximation, what
+will be the form of the fluid loading and what would be the consequences
+on the dynamics of the solid? In the single mode approximation
+the position of the interface depends on the single parameter q. So considering that interface is fixed
+at the position defined by q, we have in the fluid domain a steady-state problem
+with a boundary condition dependent on q. The pressure and the velocity in
+the fluid will depend on that value q, and so will the fluid loading
+projected on the model F sub FS. We may state that the fluid
+loading at a given time will depend on the position of
+the interface at that same time. [MUSIC] The projected fluid loading is actually
+proportional to the Cauchy number Cy as noted before. So I write the force as the Cauchy
+number times the function of the other parameters such as the Reynolds
+number and my interface displacement, q. For small motion, D much smaller than 1, we may now expand the fluid loading as
+a function of the small parameter, D. The first term is the permanent loading corresponding to the reference
+position of q equals zero. The next term is D times the fluctuation
+of the fluid loading force, small F sub FS. This is the flow induced force resulting
+from the motion of the interface. It is proportional to
+the modal displacement on q. This is a flow induced stiffness
+force as a spring force. [MUSIC] So from the point of view
+of the dynamics of a solid, the coupling to the flow is identical
+to the coupling with the spring. But what is the stiffness
+kF of this spring? We have kF equals Cauchy times DF over Dq. First, we may note that it may
+be positive as well as negative. Its sign just depends on the way the flow reacts to the displacement of the
+boundary, as will be shown in examples. Moreover, the magnitude of the stiffness
+depends on the flow velocity being proportional to the Cauchy number. Remember that the Cauchy
+varies as u squared. So we have a flow induced
+stiffness with a sign and a magnitude that depends
+totally on the fluid dynamics. [MUSIC] What is the consequence of
+such a flow-induced stiffness on the dynamics of our solid? The dynamics of the mode is governed by
+an oscillator equation that we obtained in dimensionless form. If we are interested in the dynamics of the
+solid, we should now change the reference time and use the dimensionless
+time t bar based on t fluid. Thus we have a simple oscillator
+equation for the quantity q of t. In the presence of flow, the oscillator
+equation is modified by the right hand side force f sub FS,
+which we just derived. As this force is proportional
+to the model displacement q, we can incorporate it in
+the oscillator equation. So in the presence of flow we have
+a new oscillator with a total stiffness that varies
+with the flow velocity. Depending on the sign of
+the fluid induced stiffness, the total stiffness may decrease
+as the flow velocity is increased. At some stage, all stiffness is lost. At 0 stiffness, instability occurs
+because the frequency becomes imaginary. This instability is often referred to
+as the static instability in the sense that it only involves displacements term,
+not inertia or velocity. It is also called buckling or divergence. Now what happens in practice? If we consider the response
+to a perturbation, here's what will happen
+in this approximation. At 0 flow velocity the solid oscillates. For velocity below
+the instability threshold, the perturbation also results in an
+oscillation, but the frequency is smaller. Above the threshold, any perturbation
+will be exponentially amplified in time. Let us summarize. Here's what the dynamics
+of the oscillator and the flow is going to be in the case where
+the flow induced stiffness is negative. At very small Cauchy number,
+the flow is unable to affect system and the dimensionless frequency of free
+oscillation is going to be 1, as expected. As the flow velocity is increased, the frequency decreases down to
+the point of static instability. [MUSIC] We can illustrate this on the very
+simple case of an airfoil, which may deform in
+torsion around an axis. Let theta be the angle of torsion
+with a zero reference position. Without flow, the wing section angle would
+follow an oscillator equation where J is the moment of inertia and
+C is the torsion stiffness. Using a time based on Tsolid,
+the period of the oscillator, the equation becomes,
+the elementary oscillator equation. Let us consider now a flow
+such that our assumption of quasi-static aeroelasticity applies. This means that the reduced
+velocity is high enough. Here, the reduced velocity UR reads as
+the ratio between the time of oscillation, Tsolid, and
+a fluid convection time, L over U. The displacement number would be here
+the magnitude of the displacement over the size of the wing section, which means
+D equals theta naught L over L, which is theta naught, where theta naught
+is the angle of the motion of interest. The condition for the use of an approximation is
+that UR is much larger than D. If we consider oscillations
+of the order of degrees, say, theta naught equals pi over 100,
+on a typical small aircraft wing, we have UR on the order of 100,
+which is much larger than pi over 100. Under this approximation we may use as model
+of the fluid force acting on the airfoil, exactly the same model as
+if the airfoil was fixed with a time independent
+angle of torsion theta. This is the well known configuration of
+a fixed airfoil with an angle of attack. For small enough angles, before stall, the flow around the airfoil results mainly in a lift force acting
+about at the quarter chord. The force is proportional to U squared and
+to CL, the lift coefficient, which depends
+on the angle of attack, theta. Let x be the distance between
+the point where lift applies and the axis of rotation of the airfoil. Now, dimensionless equations. We may define a Cauchy number, Cy, as the ratio between the fluid
+loading and the flexibility in torsion. The moment exerted by this force
+acts on the rotation of the wing at right hand side term in the oscillator equation. Let us now expand the r.h.s for
+small angles and obtain a stiffness term related to the
+derivative of the lift coefficient with respect to the angle of attack. There is a lot of data on the dependence
+of the lift coefficient with the angle of attack, depending on
+the shape of the airfoil. For instance, for
+a symmetric NACA 0012 section, here is a schematic view of the curve. All we need here is
+the slope dCl over d theta. It is typically equal to 2 pi
+in the thin airfoil theory. We may write now the equation
+that governs the torsion angle, taking into account
+the flow induced stiffness. We see that when x is positive, for
+instance for a rotation axis at the mid chord, the stiffness destabilizes
+the torsion dynamics. The total stiffness vanishes
+at a critical Cauchy number, which we can simply compute. Now that we have
+the critical Cauchy number, we can go back to dimensional quantities. The critical velocity is found to depend
+simply on the rotation stiffness, C, on the chord of the wing, L, and on the position of the axis
+of rotation of the wing, x. Here is an illustration of the response
+of the wing to an initial pertubation. For velocity below the critical value,
+the airfoil  oscillates. Above the critical velocity,
+the amplitude increases exponentially. [MUSIC] Actually, these instabilities
+were a problem for early planes made of
+rather soft materials. For more recent planes, materials are
+stiffer and more importantly the point of the axis of rotation may be moved upward,
+which totally suppresses instability. This instability was observed here, on a plane without engines,
+a very special case. You may also find some of
+these instabilities in torsion in very flexible foot bridges. To summarize, we have shown that
+the very simple approximation on the reduced velocity could
+be used to predict some kinds of interactions between a fast flow and
+a solid. And some of these interactions could lead
+to instabilities of the buckling type. This is very important in practice and remember that predictions
+of the critical velocities only require standard data on
+fluid loading on structures. [MUSIC]

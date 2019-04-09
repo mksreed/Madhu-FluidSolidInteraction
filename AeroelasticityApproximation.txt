@@ -1,0 +1,127 @@
+[MUSIC] Hello. So we have been exploring the space
+of our dimensionless  parameters, to see if some approximation allowed
+building simple enough models. This approach has been fruitful in
+the limit of very low reduced velocities. The fluid could then be
+considered as still, with regard to the dynamics of the solid. As a consequence, and in the limit of small motion of the solid,
+we obtain very general results on the form of the interaction force
+exerted by the fluid on the solid. We found fluid-added stiffness,
+fluid-added mass, fluid-added damping, more complex history effects of viscosity,
+and even coupling with fluid modes. These models are quite useful in practice, in off-shore engineering, in ship design,
+or biomechanics, just to cite a few. But this limit situation clearly does
+not cover all possible interactions. Let us now explore the effect of flow. [MUSIC] Look at the case of vibration of
+a plane tail as illustrated here. The fluid velocity across
+the wing is certainly not small. Let us see if we can build some model for
+this, and many other phenomena that would
+be related to the effect of flow. [MUSIC] Conversely to the previous approximation,
+and quite symmetrically, in fact, we now explore the case where
+the reduced velocity is very large. Remember that the reduced velocity
+is the ratio of the two time scales, fluid and solid. A very large reduced velocity
+means that the time scale of the solid dynamics is much longer
+than that of the fluid dynamics. In other terms, the time of oscillation or of wave propagation in the solid is
+now much longer than the time of convection of a free particle
+across the length scale L. What does it mean now? Let us imagine now that we follow in time
+the evolution of a quantity pertaining to the solid. For instance,
+the displacement of a material point. This quantity evolves with a long
+time scale that I call T SOLID. Conversely, a quantity pertaining to
+the fluid dynamics, such as the position of a fluid particle, evolves on a much
+shorter time scale, T FLUID. Intuitively, we may imagine
+that there is a limit when these time scales are very different, such that the dynamics of the fluid 
+occurs in interaction with a fixed solid. This would certainly a  be much more
+simple framework to model fluid-solid interactions if the solid
+does not seem to move. Note that by stating
+that the solid is fixed, I do not mean that it does not move. I just say that its own motion occurs so slowly that I can neglect it
+when I'm computing the motion of the fluid. But of course I will also
+have to compute it at some point. So we are looking for
+the framework of an approximation that is exactly the reverse of
+that of the previous lectures. Instead of a non-moving fluid,
+it is a non-moving solid. As an example, let us consider
+the oscillating wing that I showed before. The flow velocity in the reference
+frame of the wing is of the order of a hundred meters per second, say. So that is T fluid is the order of .01 second for wing of about a meter of  chord. Then one oscillation of the wing
+occurs in about one second. Consequently the reduced velocity,
+which is a ratio between one second and .01 second, is about 100. Which is not very large, but
+might be large enough to do something. 
+
+[MUSIC] All I've just said here was essentially
+an intuition that if the two time scales are so separated, there is
+going to be a more solvable problem. Let us see that in
+the equations themselves. The first step is to have a good
+choice of the dimensionless numbers. The ones we choose originally
+where the Reynolds number, the Froude number, and the Cauchy number. They're all based on
+the scalar velocity U naught. This is perfectly adequate. And there is no need
+to change them this time. 
+
+[MUSIC] In our equations it is more appropriate
+to use the dimensionless time based on the fluid dynamics, not on
+the solid dynamics which is so slow. So we have t tilde equal t over T FLUID where T FLUID is L over U naught,
+A time scale of 1 in t tilde is appropriate for the
+description of the dynamics of the fluid. Finally, we shall use
+dimensionless velocities and pressures based on U naught. Mainly U tilde equal U over U naught. And P tilde equal P over
+Rho U naught squared. 
+
+[MUSIC] Now, let us write down the dimensionless
+equations using these variables. To do this, we only need to
+replace the dimensional variables by the dimensionless ones in
+the original dimensional equations. We have already done this kind of change
+of variable in the previous part of the course, when we explored the case
+of a very low reduced velocity. So for the fluid we have the mass balance
+and the momentum balance as before. On the solid side,
+I just state here that the displacement can be represented using
+a single mode approximation. For this mode, I use the dimensionless
+oscillator equation. At the interface,
+I write the kinematic condition and the dynamic condition
+in dimensionless forms. They state that the velocities
+are continuous at the interface, for the first one. And that the force that applies
+on the mode f sub FS is the projection of the local
+fluid loadings on the modal shape Phi. Now that we have these equations,
+we should be able, somehow, to see how our assumption of a very high reduced
+velocity would simplify the equations. 
+
+[MUSIC] Again, the reduced velocity is going to
+appear in the scaling of the boundary conditions on the fluid domain. The scalar U naught corresponds to
+the reference velocity of the fluid, which I can symbolically write as
+a boundary condition on the fluid. The velocity there scales as U naught so
+that in the dimensionless value it is of the order of U naught
+over U naught, which is 1. At the fluid solid interface
+the kinematic condition is that the fluid velocity is
+equal to the solid velocity. What is the magnitude
+of the solid velocity? We know that the solid displacement
+scales as Ksi naught and that it evolves  in a time scale T solid. This means that the dimensionless displacements scale as Ksi naught over L. Which is exactly
+the displacement number D. This displacement evolves in a dimensionless
+timescale of T SOLID over T FLUID, which is precisely the reduced velocity,
+UR. So to summarize, Ksi  bar is of order D and it varies of a time scale of UR. Then we can say that the order of d
+Ksi  bar over dt bar is D over UR. So the order of the velocity in the fluid at the interface is also D over UR. [MUSIC] Let us summarize. The dynamics of the fluid is governed, on
+one hand, by a condition of order one and on the other end by a condition
+of order D over UR as interface. Certainly if UR is much
+larger than D the second condition can be set to zero
+without changing much the result. This correspond exactly to what we
+meant by neglecting the solid dynamics. The solid moves so
+slowly that its velocity is not expected to play any role in the fluid dynamics. [MUSIC] In the general case, we have an interface
+between the fluid and the solid, which has a deformation and a velocity. In the approximation that we just built
+it has deformation but no velocity. This defines the quasi-static
+aeroelasticity approximation. The motion of the solid is, from the point
+of view from the fluid, Quasi Static. We shall say that the position of
+the interface is frozen in time. 
+
+[MUSIC] So, in the general case,
+the fluid dynamics and the solid dynamics are coupled
+by the kinematic and dynamic conditions, at interface,
+and they evolve simultaneously. But in our approximation
+we have two dynamics. One slow, which is that of the solid, and
+one fast, which is that of the fluid. The solid dynamics gives the position
+of the interface through a kinematic condition that is considered as time
+independent for the fluid dynamics. This means that we're back to
+classical problem of fluid dynamics with a rigid boundary. And we know a lot about that. We have plenty of results and methods
+from theory, experiments, computations. Then the solution of the fluid dynamics
+gives a load at the interface. With that we can compute
+a solid dynamics and so on. So the two dynamics are coupled, but because we have a separation of time
+scales, we do not have to solve them simultaneously, and
+this is a major result. In other terms, if we go back to our
+example of a wing oscillating in a flow this means that we have broken
+the problem of the interaction as a succession of problems of
+flow around a fixed deformed wing plus the problem of vibration. This seems much simpler. And it is. To summarize, we have found that for
+ very large reduced velocities, we can build a model where the velocity of
+the solid at the  interface can be neglected. And the key result is that
+we can use all we know in fluid mechanics with rigid boundaries
+to predict the motion of the interface. Next we shall see if such
+an approximation allows predicting flow induced motions
+such as the example we showed. [MUSIC]
