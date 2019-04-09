@@ -1,0 +1,133 @@
+[MUSIC] So, we are exploring the framework
+of the approximation of pseudo-static aeroelasticity. We showed that taking into account the
+velocity of the solid at the interface led to flow induced damping forces. This damping could be negative and
+instability could result. We have illustrated this on the case
+of stall  flutter of an airfoil, but the framework is actually quite general. Let us now see what would happen for a body with arbitrary shape
+moving in a rather slow flow. I will consider here the simple
+cases of a rigid body moving in the direction of the flow or
+across the flow. Let us start by moving in the direction of
+the flow, and to make things even simpler, let us have a cylinder of diameter
+L moving with the velocity x dot. If we have a flow velocity that
+satisfies our condition for the pseudo static aeroelastic approximation the velocity, X dot maybe considered
+as frozen which means time independent. So, we have a cylinder
+moving with the velocity x dot in the same direction
+as a flow velocity U. This is equivalent to
+considering a fixed cylinder with a flow velocity V
+equals to U minus X dot. This is now quite simple
+What is the force resulting from a flow of magnitude
+V on a fixed cylinder? It reads F(V) = one half of rhoV2 LCd (Re) where Cd is the drag coefficient that depends on a Reynolds number
+which is here, rho VL / mu. Here is a typical plot of the evolution of
+the drag coefficient on a cylinder with the Reynolds number. It first decreases and
+then reaches a kind of plateau, except in a small region before
+Reynolds of 10 to the 6. So, as we have done before,
+we may expand the force F considering that the velocity of the
+cylinder is small versus that of the flow. We have a first term corresponding to the
+drag when the cylinder is not moving, but we are interested in the next
+term which takes into the account the velocity of the cylinder. It reads, X dot dF over dX dot and this
+is the damping force that we expecting. What is the sign of
+the damping coefficient? We have to go back to the model of
+the drag force where the velocity, V, is actually dependent here on X dot. This is a straightforward derivation,
+which gives finally the coefficient dF over dX dot,
+proportional to the velocity U, and to a factor which depends
+on the drag coefficient only. [MUSIC] What is the sign of this
+damping coefficient? It only depends on the sign of the term
+related to the drag coefficient. If this quantity is positive, then the force will have a damping
+effect on any motion of the cylinder. Conversely, if it is negative,
+then any motion would be amplified, and we shall have a dynamic
+instability called drag galloping. In practice can we have a negative
+damping coefficient? We know that the drag
+coefficient is positive but it decreases with Reynolds  number so that
+the second term in the bracket is negative. How is the sum of the two? Well, it is negative but only in a very small Reynolds number near one million where there is a sudden drop
+of the drag coefficient. This drop corresponds to what
+is called drag crisis and in that region  the sum of
+the two terms is negative. We have then what is called
+a drag instability of the cylinder which is going to oscillate
+in the direction of the flow. The mechanisms of the drag crisis
+instability is easy to understand. When the cylinder moves in
+the downstream direction, the apparent  flow velocity decreases. In the drag crisis region it happens that
+the drag then increases. Conversely, when going in the upstream direction
+the apparent  velocity increases causing the drag crisis,
+and the drag drops. As a result, the trend of drag is always
+in the direction of the velocity and the power of the fluid force over
+the cycle will be positive. This will cause a flow induced dynamic instability. Actually, this instability
+may occur on any bluff body oscillating in the direction of
+a flow provided there is a drag crisis. What is drag crisis? It is a sudden change in the flow pattern, particularly in the organization
+of the boundary layer near the solid wall. This only happen if the body has
+smooth walls, not with corners. Here's the form of the evolution
+of drag coefficient of several shapes. The rounded shapes in red may be unstable because there is a sudden
+decrease in the drag coefficient. The shapes with sharp edges in green,
+here the square, and the triangle, will be stable. [MUSIC] Well, using this same idea,
+let us see what happens if a body of arbitrary shape moves
+transversely to the flow. Let theta naught be the angle that defines its angular opposition
+relatively to the flow. If again the velocity y dot is frozen
+in time we have only to consider a fixed body with a relative velocity of V
+which is a combination of U and Y dot. This is equivalent to considering a change
+in the incidence of the flow which becomes theta nought plus alpha where alpha depends on
+the ratio between y dot and U. The lift  force acting in that
+configuration is as for the airfoil, defined by the lift coefficient CL, which depends on the angle
+of incidence of the flow. As this angle is dependant
+on the velocity y dot again, we obtain a flow induced damping. And the coefficient depends on the variation   of the  lift
+coefficient with the angle of incidence. At this stage we are exactly
+at the same point than when we developed the force  for an airfoil in plunge. We found a condition of stall flutter directly dependent on the slope of lift coefficient dCL/dtheta. [MUSIC] But the difference here is that we do
+not have a streamlined body as for the  airfoil. This means that the evolution of
+the  lift coefficient with respect to the angle of  the incidence can take any form. The only thing we may say
+is that it is periodic in theta naught  and if  it is periodic in theta naught ,
+there is certainly going to be a region where the slope  is positive, and
+a region where the slope  is negative. So there will always be a range of
+orientation of the body with respect to the flow, such that motion in
+the lit direction will be negatively damped. This is much more general
+than the conditional of stall. We shall call this lift galloping,
+which occurs as soon as the lift coefficient has a decreasing
+slope with the angle-of-attack. For instance, here is the case of a square
+section. Because of the symmetries, we only need to plot the lift
+coefficient between 0 and pi over 2. By just looking at the shape of the curve,
+we see that we may expect lift galloping for small angles and
+near the diamond position. Actually, as a general feature it is
+observed  that only when bodies are elongated in the cross-flow direction, the lift
+coefficient has  a negative slope first. Schematically, for a rectangle aligned
+with the flow, the lift motion is damped. For a rectangle transversed to
+the flow the lift motion is unstable. Look at the movie; what you see here
+is kind of poster suspended in a shop. It is placed closed to the shop entrance
+where you have a continuous air current. Because the pendulum motion is very
+slightly damped, the flow induced forces result in an instability with
+a very large amplitude of motion. To summarize,
+we have found that the dynamic instability may occur when a bluff  body
+is free to move in a flow. When flow induced forces are considered
+to depend on the velocity of the body, we have a flow induced damping
+force that destabilize the motion. This is often referred to as galloping, although this term describes
+more the motion than the cause. Our two cases  illustrated here,
+drag galloping of a cylinder and lift galloping of a rectangle
+are  the simplest cases. More generally,
+you can imagine that the  bluff body that moves in a direction that is inclined to
+the flow, will combine these effects. Moreover, one may take into account
+the simultaneous changes of lift and drag forces that
+occur when the solid moves. There are rather elaborate models  for
+this, but the elementary mechanisms are those we just saw. In practice, you will find these
+issues of galloping in many systems. For instance,
+in transmission lines ice may aggregate and transform the cylindrical section into
+a shape elongated across the flow. Also in offshore engineering,
+the current may come across what is called riser towers  which
+are arrangements of connected pipes. These systems  may have non-zero lift under some incident angles, and
+this galloping may occur. Galloping also occurs in systems moving in
+much more complex motions such as gates in dams. Tainter gates were found
+to vibrate under flow and this can be analyzed by using our models. Finally, bridges. There are a lot of galloping
+issues in bridges and some of them require the use of models
+more complex than what we studied here. In particular, the famous Tacoma Narrows
+Bridge failure is not an easy case. Let us just say here that it falls in the
+category of coupling with the flow, slow flow, where you have to take into account
+the local velocity of the bridge deck. More generally, models exist that
+allow to  take into account not only the displacements but
+also the rotation of sections in the flow. Let us conclude our chapter
+on coupling with a slow flow. By slow flow we meant that
+its velocity is not so large that the solid
+velocity can be neglected. In that case we could define an assumption
+of pseudo-static aeroelascity, which predicts that a flow induced damping
+force is going to apply on the solid, and that the damping force maybe
+stabilizing or destabilizing. When it is destabilizing we have a dynamic
+instability  that builds up on a single mode. No coupling of modes needed. We have illustrated this on stall  flutters of airfoils  drag galloping and lift galloping. [MUSIC] At this stage of the course, we have
+models for interaction with fast flows, very high reduce velocities, and for slow
+flows, intermediate reduce velocities. We also have models for very slow flows
+when the  fluid velocity is negligible. Can we cover the whole axis of reduced
+velocities and connect all these models? We shall try and
+do this in the next chapter and show that we can give
+a consistent picture. [MUSIC]
