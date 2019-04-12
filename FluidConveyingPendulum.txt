@@ -1,0 +1,75 @@
+[MUSIC] We would now like to use our
+models of fluid solid interactions to predict what happens on a fluid
+conveying pipe for large range of reduced velocity from added damping
+to reduced damping and then  instability. Let us start by the simplest possible
+model, the fluid conveying pendulum. What is a fluid conveying pendulum? As I said before, a single mode
+approximation of the dynamics of the pipe would follow the first
+mode of bending like this. But to make things even
+simpler I'm going to lump all the flexibility at one end with
+a rotation spring of stiffness C. And all the mass at the other
+end with a point mass m. The length is L. This is a simple mass spring system. A pendulum, but not stiffened by
+gravity, just by the rotational spring. The position of my pendulum is given by
+the inclination angle, say capital theta. So without fluid, the equation of motion of this pendulum would be just mL squared theta double dot + C theta=0. Let us go dimensionless now. I define a dimensionless time
+based on the frequency of the pendulum 1/L square root of C/m. I can use an angle parameter of order one that equals capital theta / theta naught where theta naught is
+the magnitude of the angular motion. This is just like my q of t in the single mode approximation
+I've been using so many times. So the equation becomes just theta double dot + theta = 0. That was without fluid. Let us consider that there is
+a flow of uniform velocity U and density rho that enters the pendulum at
+the fixed end and exits at the free end. Let S be the pipe section
+where the fluid flows. We can define  a mass number M = rho SL / m. That is the ratio between the fluid mass and the pendulum mass. We can define the  reduced velocity, UR as the ratio between
+the period of oscillation, L / square root of C over m and the time
+of convection along the pipe, L / U. So U R reads U / square root of C / m. [MUSIC] We have a fluid solid system whereby
+a straight pipe that conveys the fluid at a velocity UR
+oscillates about its upper support. What is the effect of the flow velocity? Let us use all our approximations. First, what happens at the limit
+of very small reduced velocity? Then I neglect the fluid-flowing velocity. The fluid is just entrained by the motion of the pipe. Of course,
+I'm going to have an added mass effect. Actually, an added moment
+of inertia because we are considering rotation
+around the axis of the pendulum. The added moment of inertia reads
+of course in dimensional form, rho SL cube / three. So the dimensionless added mass is M / 3 and the equation of the fluid pendulum for very small reduced velocity reads (1 + M / 3) theta double dot + theta = 0. The fluid just brings added inertia. So nothing to do with the added damping
+we observe in a fluid conveying pipe. This is not surprising. Because we have neglected
+the effect of the fluid velocity, we cannot model the phenomenon that
+clearly depending on the flow velocity. We have to build a better model. Let us go to the other limit, that of very high reduced velocity. Remember that in that limit which we
+called quasi-static aeroelasticity, we consider the deformed solid interface,
+but not the velocity at the interface. That is an easy case. We have a deformed pipe, but the angle
+of deformation is frozen in time. Fluid just goes through the tilted pipe. Of course, this doesn't bring any torque. It just goes straight through. In that case, no effect of the fluid and the equation is still theta
+double dot + theta = 0. We do not see any effect of
+the flow velocity either. [MUSIC] What happens in between? I mean between very low and
+very high reduced velocities? How can we have flow induced damping? Well, for intermediate reduced velocity, we developed an approximation,
+that of pseudo-static aeroelasticity. In that case, the solid velocity was taken
+into account, but as a constant in time. For us, this means that we have
+a pipe rotating at a constant rate, theta dot, and a fluid going through it. What is the effect of a flowing
+fluid on a rotating pipe? Well, in the pipe, the fluid velocity
+must satisfy the mass balance, so that its value all along
+the axis of the pipe is UR. I have assumed here that the flow
+is uniform in the cross section for simplicity. So, the fluid velocity has a component
+along the axis of the pipe t, that reads UR t. Its value on the direction
+perpendicular to the pipe must be that of the pipe walls. The velocity of the pipe walls depend on
+the distance to the axis of rotation, say x. It reads x theta dot n where n is the normal to the pipe axis. So the fluid velocity reads
+U = UR t + x theta dot n. Now I need the torque exerted by
+the fluid on the solid because I'm interested in its rotation. There is actually a direct way to get it, which is using the balance
+of angular momentum. What is the angular momentum
+of the fluid in that motion? The angular momentum of a fluid
+particle is the vector product of the distance to the rotation axis, x, and the fluid momentum, MU. The fruid velocity is UR along
+the axis of the pipe, but this does not count in the vector
+product. And across the pipe x theta-dot. So the angular momentum magnitude r is x squared M theta dot. The angular momentum theorem
+tells us that the torque exerted on the fluid domain by the solid equals
+the variation in time of the total momentum plus the flux of
+momentum over the boundary. Let us see what we have in there. Here it is again. The variation in time of
+the total momentum is 0 because theta dot is a constant in time. Now the fluxes. At the entrance, the angular momentum of fluid is 0. So the flux is 0. The fluxes on the sides cancel out. And at the exit,
+the angular momentum is M theta dot and its flux is therefore M theta dot times UR. So we have T Solid-Fluid
+equals M theta dot UR. [MUSIC] Now this is the torque exerted
+by the solid on the fluid. So the torque exerted by the fluid
+on the solid is just the opposite, minus M U R theta dot. As a consequence, I can write the motion of the fluid conveying pendulum as theta double dot + theta = -M UR theta dot. Or equivalently theta double dot + MUR theta dot + theta = 0. Now, this is interesting because I have an oscillating
+pipe that is damped by the flow. And the damping increases with
+the velocity, as in the experiment. This is called the Coriolis damping, because it originates in
+the angular momentum balance. It is the reorientation
+of the fluid momentum that requires a torque proportional
+to the fluid velocity. That damps the solid motion. Here is an illustration of
+the dynamics of my pendulum. With a slow flow, UR = 0.1. You see that the dynamics
+is almost undamped. Here is the same with UR = 0.5 but you see some effect of
+the flow on the damping. And at UR = 0.8,
+the pipe is almost overdamped. So to summarize, we have at low reduced
+velocity, an added mass effect. At very high reduced velocity under the approximation of quasi-static aeroelasticity, no effect. And at intermediate velocity  under
+the approximation of pseudo-static aeroelasticity Colriolis  damping
+that increases with velocity. This is our patch of models. Because our system is so simple
+certainly we can do better in improving the model of interaction and
+the model of the dynamics of the pipe. This is what we are going to do next. [MUSIC]

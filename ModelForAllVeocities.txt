@@ -1,0 +1,53 @@
+[MUSIC] Using our single mode approximation of
+the fluid-conveying pipe, we have obtained some models of the fluid structure  interaction
+in different ranges of velocities. As I said before,it is a bit
+frustrating to have patches of models. Actually, for this particular
+system we can say much more. To derive the torque
+exerted by the flow on the pendulum, I used the Angular Momentum Theorem. In the torque, the first term was
+the time dependence of the total fluid angular momentum, and because I was under
+the approximation of a pseudo static aeroelasicity, the angular velocity was frozen in
+time, and so this term was equal to zero. If now the velocity is time dependent,
+which is the general case, then this term reads  simply
+d/dT of M/3 theta dot, which is M/3, theta double dot. I now have the most general form of
+the torque exerted by the solid on the fluid, which reads M/3 theta
+double dot + MUR theta dot. If I include this in the equation
+of the fluid pendulum I recover added mass and
+added damping at the same time. One plus M/3, Theta double dot plus MUR
+Theta single dot plus Theta equals zero. And this is valid for
+all  reduced velocities UR. Actually, I have simultaneously
+added mass and added damping. This means that added mass
+exists at all reduced velocities, not only at very small ones. And that added damping exists
+at all reduced velocities not only at intermediate ones. Yes, schematically, here's what happens. At all reduced velocity,
+I have added mass. Added Coriolis damping always exists,
+but becomes larger and larger as the reduced
+velocity is increased. Eventually, it becomes
+the dominant effect. This gives some deeper meaning
+to our patches of models. For our  fluid conveying pendulum, the
+simple models of each range of velocity were right, but they could not give
+us more than the dominant effect. The full model combines all this :  Effects add up. [MUSIC] The fluid
+solid interactions effects do not just add up like this in the most general case,
+but what is true that they do not
+replace one by the other. You remember that at low reduced velocity, all effects were independent
+of the reduced velocity. That in pseudo static aeroelasticity,
+the fluid induced damping effects that gave us galloping were proportional
+to the reduced velocity UR. And that in quasi static aeroelasticiy , the fluid induced stiffness effect that gave us divergence or
+flutter were proportional to the Cauchy number that varies like the square
+of the reduced velocity. So, the general feature is more like this. Depending on the range of reduced
+velocity, each type of effect dominates. At low reduced velocities, added mass, at intermediate velocities
+flow-induced damping and at higher reduced velocities,
+flow-induced stiffness. When we build up the classical
+models of added mass, fluid damping and so on we went to limit cases so
+that we could neglect some terms in comparison to others and
+focus on the dominant effect. But we can say now that the root causes
+of all the mechanisms we have found are always there but that depending
+on the range of reduced velocity, one or the other dominates. [MUSIC] Let us go back to our
+fluid-conveying pipe instability. We have found that the fluid
+conveying pendulum, the single mode approximation was enough
+to give us the added mass and the  fluid induced Coriolis  damping, but
+that does not explain the famous  garden horse instability. In the fluid
+conveying pendulum, the higher the fluid velocity,
+the higher the damping. The effect is only stabilizing. We have to enrich the model somehow. And this is not a question of too much
+simplification in the description of the interaction, because we have solved
+the model for any flow velocity. The only direction of improvement is
+to have a better approximation of the dynamics of the pipe. Look at this motion here and here. This does not look like
+a single mode oscillating. It seems a combination of two modes. Let us go in that direction. [MUSIC]

@@ -1,0 +1,82 @@
+[MUSIC] Hello, using our dimensionless parameters,
+particularly the reduced velocity, we have seen that we could
+build simple models for the interactions between a fluid and
+a solid. These models were applicable in
+different ranges of these parameters. In practice, we now have models for interaction with fast flows
+(very high reduced velocities) . They are efficient to predict coupled
+model flutter of wings, for instance. We have models for slower flows
+(intermediate reduce velocities) that are useful for the prediction of
+galloping of power lines for instance. And we also have models for very slow flows when the fluid
+velocity is negligible. They are the one used to
+predict the stability of ships, or the added mass of cables under water. This is nice and useful, but it is a bit
+uncomfortable to have patches of models. Can we connect them? What happens when a given system sees a
+progressive increase of the fluid velocity from zero to very large? In other terms how do we jump
+from one model to another? [MUSIC] We cannot address this
+in the general case. This is why we have to
+make models in parts. But there are some simple systems where
+we can do this because the geometry is simple. We are going to do that
+on the toy problem, a very classical problem of fluid solid
+interactions, the garden hose instability. Certainly you have experienced this, a flexible pipe that flutters
+when you put some flow velocity. Why is it so famous? First, because people soon
+recognized that it was experimentally rather simple to realize. Second, because a pipe is a simple
+mechanical system, a kind of beam. And the fluid inside it just
+follows along the  direction of the pipe. So certainly the equations
+are going to be much simpler. Just to give you a taste of how
+this problem has fascinated people, here are some pictures taken in the 30s
+in France by Bourrieres of experiments on the fluid conveying pipe fluttering
+with air flow or with water flow. And Bourrieres recognized that
+the shape of flutter was different. And here are experiments of Paidoussis,
+in the 60s, in England. He then built a full model of the problem. Today, there is a huge body of
+literature on this phenomenon. For instance,
+an authoritative book here written by Paidoussis after 50 years
+of research in this domain. As I've said this problem is interesting
+to understand the fundamentals and that is why many people
+worked on it over years. But this research driven by curiosity
+also found applications in the field of offshore engineering for aspirating pipes,
+in cooling systems or in dredgings or  nanowire
+dynamics or mining. If you think of it,
+there are many related systems, sky dancers, thin jets,
+coiling systems, and so on. Let us go back to the garden hose,
+or fluid conveying pipe, instability. Here's what happens. Consider a straight pipe with flow inside. Depending on the flow velocity,
+here's what schematically happens. At zero flow velocity, the perturbation,
+just  pulling and releasing, results in a damped motion of the pipe, more or less
+damped depending on the pipe material. This is shown here schematically. If the flow velocity is now increased,
+the same perturbation results in an oscillatory motion of
+similar form, but more damped. Then, as the flow velocity is further
+increased, this trend is reversed and eventually, a situation
+of zero damping arises. Above this critical flow velocity,
+the pipe starts to oscillate by itself. A true dynamic instability in
+the sense we defined it before. This is the famous
+garden hose instability. To summarize,
+as the velocity is increased in the pipe, we have an increase of damping, then
+a decrease and eventually the instability. Actually above the critical velocity, the amplitude grows until a regular
+self sustained motion sets on. This motion, seen here with a fast camera is a bit
+different from the simple pendulum motion. Further in velocity,
+other surprising things happened, but this is another story. [MUSIC] How can we relate all these to what we have done before? First, dimensionless parameters,
+here the mass number is simple. It will be the ratio of fluid mass over
+solid mass, by unit length of the pipe. Clearly, it will be different for
+a gas or liquid conveying pipe. Second, the reduced velocity.
+Quite naturally it may be defined in terms of ratio of times. The time characteristics of
+the solid dynamics is, for instance, the period of oscillation
+of the first mode without fluid. T solid equals one over f. The time characterizing the fluid
+dynamics is for instance, the time a fluid particle takes to go from
+the entrance to the exit of the pipe. T fluid equals L over U, where U is
+a mean flow velocity in the pipe section. So UR equals U over fL where f
+is the frequency of oscillation. In the experiment I was discussing
+before, increasing the flow velocity means increasing the reduced velocity
+from zero to critical. Does the behaviour  of the pipe resembles
+what we have seen before? Yes, we have flow induced added damping,
+and a flow induced dynamic instability. But at this stage, we don't know
+what precisely the causes are. Moreover, we imagine that as
+reduced velocity is varied, we somehow switch from
+one mechanism to another. For instance, we have an increase
+in damping first, then a decrease. A key aspect of the models we developed so far was the level of approximation
+of the dynamics of the solid. We used single mode approximations and
+in some cases, two modes approximations. For instance, for the dynamics of
+an airfoil, we had pure plunge or pure torsion or
+simultaneous plunge and torsion. What would be the equivalent for the pipe? A single mode of approximation
+of the bending of a pipe would be using just the first
+bending mode like here. Or the second bending mode, or a two modes approximation would combine
+first mode and second mode, like here. We have at hand all the ingredients to
+predict how the pipe is going to behave, damped or not and stable or not. Let us now explore the dynamics of these
+fluid conveying pipes with our models. [MUSIC]

@@ -1,0 +1,91 @@
+[MUSIC] We found many possible interactions
+between a fluid and a solid. We could see that the same fundamental
+models could be used to understand and predict couplings in
+very different systems. For instance,
+the couple mode flutter of an airfoil, and the garden hose instability
+had a common structure, a frequency merging with non-symmetric
+coupling between the two modes. In fact, there are many possible applications of
+these models we have built together and most of the engineering practice in
+fluid interactions is based on them. But that does not cover
+all observed phenomena. For instance, here is an experiment
+on a flexible system, a chain, that oscillates under flow. Some dye in the flow shows
+that this is simultaneous with the shedding of vortices from
+the solid boundary into the flow. Here is a computation
+of the same phenomenon, with a flexible cylinder that moves
+also in relation with vortices. This is called vortex-induced vibrations,
+or VIV, and has nothing to do apparently with what
+we have been talking about up to now. Why is it so different? First, it happens in a limited
+range of reduced velocity, say, 5 to 10, and
+then disappears at higher flow velocities. This does not look at all like
+the instabilities we have found. When an airfoil was unstable,
+increasing the flow velocity made things worse. Second, it happens even with uniform flow on a cylinder
+flexible just in the lift direction. And we have seen that a cylinder cannot
+experience lift  galloping. [MUSIC] What we see is different. It seems related to some
+internal dynamics of the fluid, here the shedding of vortices. But so far we have considered only
+one time scale in the fluid domain. That was T Fluid, the time
+corresponding to the convection of a particle across the length L,
+so that T Fluid = L/U. In fact, if you look at the flow
+behind the fixed cylinder when the Reynolds number is high enough,
+you'll see oscillations. So there is another time scale. Let us call it T vortex because these
+oscillations correspond to the shedding of vortices behind a cylinder. If there is another time scale for
+the fluid, then all our models which are based
+on the comparison between T Fluid and T Solid, using the reduced velocity,
+are just not relevant. What do we know about this
+time scale of vortex shedding? Well, T vortex can be estimated
+from the oscillation of a quantity such as pressure in the wake. On an instantaneous image of a flow,
+we can also estimate it from the wavelengths of the pattern
+of vortices that by the flow. We can do that for several flow
+velocities, several cylinder diameters. And what is remarkable is
+that this new time scale, T vortex, is actually proportional to
+the one we have been using, T Fluid. This means that when we
+increase the velocity, the frequency of shedding increases. This is call the Strouhal law, and the coefficient S between the two
+time scales is the Strouhal number. The Strouhal number for a cylinder would be around 0.2 if
+the Reynolds number is high enough. Remember that the reduced velocity was built to compare the dynamics
+of the fluid and of the solid. U R = T Solid/T Fluid. When U R = 1, the time of convection and the time of oscillation
+of a solid were the same. Now using the Strouhal law, we can make a comparison
+between T Solid and T Vortex, because T Vortex = (1/Strouhal) T Fluid. The ratio T Solid/T Vortex is not U R but now S times U R. What does it mean? It means that when SU R = 1,
+the shedding of vortices and the motion of the solid happen
+at the same time scale. [MUSIC] When we observe vortex-induced vibrations, we had U R of about 5 and
+now S equals 0.2, so SU R equals about 1. Something is happening here between
+the vortices and the motion of the solid. It is easy to imagine what happens then. We have oscillations in
+the flow at a period T Vortex. Certainly this causes oscillation of the
+lift on the cylinder at that same period. If that period of forcing
+is equal to the period of free oscillation of the cylinder,
+we might have a resonance. Here is a simple model of that effect. Let F vortex be that oscillating lift caused by vortex shedding on
+the cylinder per unit time. We can write F vortex = one-half
+of rho U squared L times C l, the lift coefficient,
+times sinus(2 pi t/T vortex). This force oscillates at the frequency of  vortex shedding. Its magnitude is defined by
+C l called the fluctuating lift coefficient,
+which is about 0.3 for a  cylinder. Now if the cylinder is a mass-spring
+system that is allowed to move in the lift  direction,
+we have a forced oscillator equation. On the left-hand side,
+the dynamics of the cylinder. On the right-hand side,
+the forcing by the wake. But we know how an oscillator
+responds to a sinusoidal forcing. Here is the response
+curve in dimensionless form. At the reduced velocity of
+1/S we have a resonance. Of course, if we have damping,
+the resonance  is limited in amplitude. But there's also something special
+with this resonance curve. It does not decrease after the resonance. It stays on a plateau. Why? Because as you increase the velocity, you
+increase the frequency of the forcing but also the magnitude of the forcing. This is the basis of modeling
+of vortex-induced vibrations. The solid is forced to oscillate because
+the fluid dynamics oscillates itself. Vortex-induced vibrations, or VIV,
+occur not only in cylinders, but on all bluff bodies where
+there is an oscillating wake, as soon as the Reynolds
+number is high enough. How can you avoid
+vortex-induced vibrations? Now that you know the cause,
+you can imagine many ways. First, you can think of
+avoiding the resonance. Because VIV occur in limited
+range of the used velocity, you just have to check that the main
+frequency of free oscillation of your system is away from the frequency
+of vortex shedding. For instance, you compute the frequency
+of a free oscillation of an antenna. Then for a given wind velocity, you compute the frequency of vortex
+shedding and you compare them. But this might not be enough. Damping can also help because it
+reduces the amplitude at resonance. There are many damping systems that can
+be added to vibrating structures of all sizes. And finally,
+you can try to suppress the cause, which is the oscillation of the wake. This is done usually by adding
+devices such as splitter plates, helical strikes, bumps, and so on. [MUSIC] Let us summarize. We have here a new dynamical system,
+the wake. It has its own timescale of oscillation. And when the timescale matches that
+of a solid, we have a resonance. This is a pure forcing of the solid by
+the  fluid, vortex-induced vibration. But what about the feedback? You can imagine that when a cylinder
+moves a lot, it influences the wake. What happens then? We have found plenty of useful
+models when considering the feedback coupling between the fluid and the solid. Let us do that next. [MUSIC]

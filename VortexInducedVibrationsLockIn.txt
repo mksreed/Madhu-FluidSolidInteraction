@@ -1,0 +1,95 @@
+[MUSIC] Vortex induced vibrations, as we have just
+seen it, seems a very simple phenomenon. The fluid dynamics is oscillating and
+this causes oscillating forces on the solid which oscillates a lot and
+there is a resonance. But something happens in practice which
+does not fit with such a simple picture. You remember that the frequency of
+oscillation of the wake of a fixed cylinder satisfies,
+as I've said, the Strouhal law. In other terms, the frequency of vortex shedding is
+proportional to the reduced velocity UR. Its dimensionless  value, f vortex, is equal to SUR,
+where S is the Strouhal number. But when the cylinder is let free to
+move under the force caused by the wake, the frequency of vortex shedding deviates
+from this and very significantly. What happens is shown here schematically. If we increase our flow velocity above
+the point where there is resonance, the frequency of shedding is said to lock on the frequency of
+oscillation of the cylinder. It very strongly deviates
+from the Strouhal law. We say it is locked on
+the motion of the cylinder. Eventually at higher reduced velocities,
+it jumps back to the Strouhal law. This lock-in phenomenon results in
+something like an extended resonance. The wake continues to excite
+the cylinder at its own frequency, even at higher reduced velocities. Instead of having VIV only
+when the frequencies match, we have them over a wide range. The amplitude of motion
+schematically shown here remains high even after the pure
+resonance condition is satisfied. Do we have a model for this? The basic model of VIV
+is based on a lift force that oscillates at the frequency
+of the Strouhal law. Then this force is applied on
+the oscillating cylinder, and if resonance occurs,
+the amplitude of  motion is large. But here, by construction, the Strouhal law  is respected and
+they cannot be lock in. How can the model be improved? First of all, we have to keep in
+mind that the cause of oscillation of the lift is an oscillatory 
+dynamics that sets on in the flow. Actually  it is a result of  what is 
+called hydrodynamic instability. The uniform flow solution
+is not stable anymore and an oscillating solution emerges. It seems reasonable to
+take into account somehow that the lift force is actually the
+consequence of something that oscillates. Something that satisfies
+an oscillator equation. Instead of my formula for F, I can write,
+F double dot plus  S UR squared F equals zero. But doing this just gives me
+the same result as before. F(t) is applied on Y and
+I have a resonance. What I'm looking for is a way to take into account
+the feedback from the solid to the wake. This means that I want
+to take into account the displacement Y in the equations
+that governs the lift F. How can I do that? How does the wake respond to a motion
+of the cylinder that causes the wake? People have done plenty of experiments
+on wakes behind a moving cylinder, and what they found shows that the wakes are sensitive to
+the acceleration of the cylinder. The forcing term on the wake equation is
+actually proportional to Y double dot. So to summarize, instead of having a given wake
+force shaking the cylinder, we have a coupled system made of an oscillating
+force and an oscillating cylinder. This is completely different. But how does this coupled system behave? First of all,
+this set of equation is linear. So there is no way that this is going
+to give me an amplitude of motion or an amplitude of the force. But I built this model to
+try to understand lockin which is just a question of frequencies. So what are the frequencies
+involved in this coupled system? To know them,
+I just have to compute the modes. Let us look for solutions in
+the forms of e to the i omega t. Because I have two degrees of freedom,
+I have two modes, and, therefore, two frequencies. And for each value of UR, I will
+have a different set of frequencies. For such a simple system I can
+do all the computations by hand. But here's schematically the result. The horizontal axis is the reduced
+velocity, the vertical axis gives the frequency, the value of 1
+being the cylinder  free frequency. The dotted line,
+is the Strouhal law.  At SUr equals 1, the frequency of shedding is expected
+to be equal to that of the cylinder. But what does the coupled model give? At zero reduce  velocity,
+I have two frequencies. One is that of the solid and the other zero because the frequency
+of shedding is zero with no flow. With a non-zero flow velocity, the frequency of the wake is
+close to the Strouhal law. But as the reduced velocity
+is increased further, I see the two frequencies
+coming closer and closer. Then they merge and there is only  one
+frequency, and then they split again. The wake frequency goes up and
+back to the Strouhal law. What does happen in the yellow zone here
+where I have only one common frequency? Here is the growth rate of the modes. Opposite to the imaginary
+part of the frequencies. It tells me if a mode is damped or negative, neutral or
+unstable when positive. For loaw and high reduced
+velocity they are  equal to zero. But in the range I've identified before, one of the mode has a positive
+growth rate, and one has a negative. This tells me that I have
+an unstable coupled mode. What does the unstable mode look like? [MUSIC] To visualize it, I have to show
+the evolution of the two variables. The displacement Y and the lift force F. Here is the mode. As you can see, the cylinder oscillates
+and the force has a phase shift with it. And thanks to this phase shift, there is
+a positive work of the force over a cycle. Let us summarize. To understand and predict lock-in,
+this mixup of the two frequencies, I have to incorporate an effect of
+the cylinder motion on the wake dynamics. The instability we obtained here
+is very similar to coupled mode flutter as we've seen it for air flois  or
+for fluid conveying pipes, but what is very special is that instead
+of having two solid modes being coupled by the flow, we have one
+solid mode coupled to one fluid mode. We already had coupling between
+solid modes and fluid modes, in the case of sloshing of a free surface. It was the dynamic Froude number
+that governed it, but that coupling was conservative,
+it did not bring any instability. We also had coupling between solid modes,
+and at time-dependent process, viscous
+diffusion in the fluid. That brought damping, and
+the Stokes number was the key parameter. Here, we have coupling between
+a solid mode and a wake mode. And these coupling bring some instability
+in a limited range of reduced velocity. Let us conclude. To address the various kinds of
+interactions between fluids and solids, you know that
+the key thing to look for is the comparison of all the time
+scales in the fluid and in the solid. The dimensionless parameters
+are built just for this. The Stokes number, the dynamic
+Froude number, the reduced velocity, the Cauchy number. All the models that exist and that you
+can use in all fields of engineering have in the background some
+assumptions on these time scales. [MUSIC]

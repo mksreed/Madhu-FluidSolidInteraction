@@ -1,0 +1,84 @@
+[MUSIC] Well, we have obtained a model of
+the flow-induced damping in a pipe using a single mode approximation,
+but we could not predict this famous fluid-conveying pipe instability or
+garden hose instability. The next step is to improve the model by enriching the description
+of the dynamics of the pipe. Let us use a two modes approximation. [MUSIC] To keep the equation simple and
+without changing the physics, we are going to work with
+the fluid-conveying bi-pendulum. Without fluid the dynamics of the single pendulum was governed by theta
+double dot + theta = 0. Let us consider a bi-pendulum by
+combining two simple pendulums. Its deformation is now defined
+by two angles, theta and phi. Without fluid, and using the same
+dimension parameters, the dynamics is governed by two equations that couple
+the evolutions in time of theta and phi. You can obtain these two equations by any
+standard methods of rigid body dynamics. In these two equations, I have two
+degrees of freedom, theta and phi. But their evolutions are coupled. This is not exactly a two modes
+approximation as I've used before. Let us build this. I can look for the two modes of this
+coupled system, here's what I get. The first mode has a frequency
+of square root of 2- 1. The motion is quite pendular, with the two
+masses moving in the same direction. The second mode has a higher frequency and the mode shape shows the two masses
+moving in opposite direction. First mode in phase,
+second mode out of phase. I can write the state of my
+bi-pendulum theta phi using a combination of these two modes
+with the modal variables q1 and q2 as I have done often before. Now, q1 and q2 satisfy simple uncoupled modal oscillator equations. Now, that we have the model for
+the dynamics of the solid, let us   include the interaction with the fluid. For the fluid conveying single pendulum, we could handle the case of an 
+arbitrary reduced velocity. It is a bit heavy to handle for the
+bi-pendulum, although it can be done too. But what we're looking for is the simplest model of  the instability that
+occurs when we increase the flow velocity. You remember that for
+other systems, such as an air foil, the approximation of
+quasistatic aeroelasticiy allowed to predict dynamic instabilities using
+a two modes approximation. Let us try this. [MUSIC] Here is the fluid-conveying bi-pendulum
+in a deformation state frozen in time. What is the fluid loading  on the solid in this geometry
+with a reduced velocity UR? This is a classical
+problem of fluid mechanics. Flow in a pipe with an elbow. Using the fluid momentum balance,
+the magnitude of the force exerted by the flow
+on an elbow is rho SU squared (theta- phi) in dimensional form,
+for small angles. I can define the Cauchy number based
+on the stiffness of the springs and my dimensionless force reads simply
+Cauchy times theta minus phi. What is the effect of this force
+on the dynamics of the pipe? All I have to do is to project
+the same force on my two modes.  Because f depends on theta and
+phi, it depends on q1 and q2. I end up with my equations in q1 and q2, including new terms,
+depending on the Cauchy number. Here they are. On the left hand side, I have the modal
+oscillator terms for q1 and q2. On the right hand side, all the terms are proportional to
+the Cauchy number as expected. And importantly, there are terms in q1 and
+q2 in both equations. I can put on the left hand side 
+the stiffness  terms of each equations, and I get something very similar
+to cases we have seen before. On mode one, I have a stiffness  that's going
+to increase with the Cauchy number. Conversely, on mode two the stiffness
+is going to decrease, and I have a coupling between the two
+modes that is not symmetric at all. This is going to give me an instability
+with a merging of the two frequencies and non symmetry coupling. Let us see that. I can compute the modes of the system
+as a function of the Cauchy number. At zero flow velocity,
+two modes with frequencies, omega one and omega two as before. As the flow velocity is increased
+the frequencies come closer and closer. When they meet the non symmetric
+couplings give two modes, one stable and one unstable. Here is what the unstable mode looks like. It is a combination of
+the two initial modes. It has a same look as the experimental
+motion after instability. Why is it unstable? It is unstable because over one cycle,
+the force exerted by the flow on the elbow brings a positive
+work as we can see here. Although the configuration
+is quite different this is exactly the same mechanism as
+in coupled mode  flutter of an air foil. Actually in many other
+instabilities of this type. The dynamics combining two
+modes allows the fluid force to bring a positive work in a cycle. [MUSIC] Much more can be done on the fluid
+conveying pipe problem and has been done. Solving for all reduced
+velocities using beam modes instead of mass spring pendulum, changing the
+boundary conditions and many other things. This serves as a toy model for a very large set of problems
+of fluid solid interactions. There are other flow induced
+instabilities that are somehow related to the fluid conveying pipe instability. For instance flag flapping in
+some regimes, the outer flow is along the flexible system as in
+the pipe and the unstable mode is similar. Some of the early models are based
+almost on the same equations. Snoring is also a case of flutter with
+flow along a flexible system. To model it you have to take into
+account the flexibility of the palate and the flow on both sides. Let us summarize the key findings here. First by using a single mode
+approximation we could obtain models for various ranges of reduced velocity,
+small, high, and intermediate. And because the system is so simple, we could have the solution for
+all reduced velocities. This showed that the various effects
+of the couplings somehow added up. But that only accounted for part of the
+dynamics observed in fluid conveying pipes. Increase of damping, but
+not the instability. Second, by enriching the dynamic of the
+solid, you could predict the instability. This is in fact the basis
+of building models. Using the simplest approximation for
+the dynamics and for the interaction, articulating the resulting models, and
+if necessary, using more elaborate models. Are there some fluid interactions problems that cannot at all be treated
+by what we done up to now? Yes, there are and many. Next we shall address one of them
+of great particular importance, vortex induced vibrations. [MUSIC]
